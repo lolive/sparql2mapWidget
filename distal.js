@@ -332,7 +332,8 @@ function distal(root, obj) {
       if((attr = attr[html ? 2 : 1]) && (attr = format[attr])) attr2 = attr(attr2);
 
       if(html) {
-        node.innerHTML = attr2;
+	while (node.lastChild) node.removeChild(node.lastChild);
+        node.appendChild(document.createTextNode(attr2));
       } else {
         node["form" in node && !formInputHasBody[node.tagName] ? "value" : innerText] = attr2;
       }
