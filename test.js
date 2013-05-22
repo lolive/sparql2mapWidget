@@ -25,7 +25,6 @@ function(res){
          ge.getFeatures().appendChild(kmlObject);
          ge.getView().setAbstractView(kmlObject.getAbstractView());
 
-console.log(kmlString);
 }
 );
     }
