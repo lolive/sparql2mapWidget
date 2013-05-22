@@ -325,15 +325,18 @@ function distal(root, obj) {
       attr = attr.split(" ");
 
       html = (attr[0] == "html");
-      attr2 = resolve(obj, attr[html ? 1 : 0]);
+      var replace = (attr[0] == "replace");
+      attr2 = resolve(obj, attr[html||replace ? 1 : 0]);
       if(attr2 == undefined) attr2 = "";
 
       if(beforeText) beforeText(node, attr2);
-      if((attr = attr[html ? 2 : 1]) && (attr = format[attr])) attr2 = attr(attr2);
+      if((attr = attr[html||replace ? 2 : 1]) && (attr = format[attr])) attr2 = attr(attr2);
 
       if(html) {
 	while (node.lastChild) node.removeChild(node.lastChild);
         node.appendChild(document.createTextNode(attr2));
+      } else if(replace) {
+        node.parentNode.replaceChild(document.createTextNode(attr2), node);
       } else {
         node["form" in node && !formInputHasBody[node.tagName] ? "value" : innerText] = attr2;
       }
