@@ -20,8 +20,7 @@
 <!----></script><script><![CDATA[
 myquery='CONSTRUCT { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .   } WHERE { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .  } ';
 ]]></script>
-<script type="text/javascript" src="https://www.google.com/jsapi"></script>
-<script type="text/javascript" src="sparql2kml2googleEarth.js"/>
+<script type="text/javascript" src="http://openlayers.org/dev/OpenLayers.js"></script>
 
 </head>
 
@@ -67,8 +66,9 @@ TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</span></href>
 
 </kml>
 </div>
-<div id="map3d" style="height: 400px; width: 600px;"></div>
-<p>GoogleEarth: SUCCESS!!!!</p>
+<div id="map" style="height: 400px; width: 600px;"></div>
+<script type="text/javascript" src="sparql2kml2openLayers.js"/>
+<p>OpenLayers: FAIL ;-( !!!!</p>
 </body>
 
 </html>
