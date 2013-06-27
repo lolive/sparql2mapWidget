@@ -10,7 +10,7 @@ var ge;
       ge.getWindow().setVisibility(true);
 sparqlQueryJson(
 myquery,
-'http://192.168.56.101:9005/sparql/',
+'http://localhost:9005/sparql/',
 function(res){
  parseN3(res);
  var kmlString=(new XMLSerializer()).serializeToString(document.getElementById('kml'));
