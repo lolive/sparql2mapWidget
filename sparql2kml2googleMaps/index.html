@@ -1,0 +1,93 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+
+<title>GeoXML3 Example Map</title>
+<link rel="stylesheet" type="text/css" href="css/index.css"/>
+<link rel="stylesheet" type="text/css" href="css/map.css"/>
+<script>var parser;</script>
+<script src="http://datao.zerezo.com/datao/underscore.js">
+<!----></script><script src="../distal.js">
+<!----></script><script src="http://datao.zerezo.com/datao/n3.js">
+<!----></script><script src="http://datao.zerezo.com/datao/myn3.js">
+<!----></script><script>
+myquery='CONSTRUCT { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .   } WHERE { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .  } ';
+</script>
+</head>
+<body>
+<div id="pagewidth" >
+	<div id="wrapper" class="clearfix">
+		<div id="maincol">
+			<div id="map"></div>
+			<div id="controls">
+				<form>
+					<fieldset>
+						<legend>Map Controls</legend>
+						<input type="checkbox" id="placemarktoggle" checked="checked" /><label for="placemarktoggle">Placemarks</label><br />
+						<input type="checkbox" id="polygontoggle" /><label for="polygontoggle">Polygons</label><br />
+						<input type="button" id="recenter" value="Recenter Map" />
+					</fieldset>
+				</form>
+			</div>
+		</div>
+
+		<div id="leftcol">
+			<ul id="placemarkList">
+			</ul>
+		</div>
+	</div>
+</div>
+<div style="display: none;"> 
+<kml id='kml' xmlns="http://www.opengis.net/kml/2.2">
+    
+<Document> 
+    
+<Camera>    <longitude>113.395838</longitude>    <latitude>22.113852</latitude>    <altitude>339000</altitude>    <heading>0.0</heading>    <tilt>0</tilt>  </Camera>
+
+  
+<GroundOverlay data-qrepeat="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay">
+   
+<Icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/<span data-qtext="replace Icon|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href">
+TTerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</span></href>
+   
+</Icon>
+   
+<LatLonBox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">
+22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">
+22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">
+113.67256904815704000</east>
+    
+<west  data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">
+113.53043784815704000</west>
+   
+</LatLonBox>
+  
+</GroundOverlay>
+
+</Document>
+ 
+
+</kml>
+</div>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+<!--
+<script type="text/javascript" src="js/mapsapi.js"></script>
+-->
+<script type="text/javascript" src="js/ProjectedOverlay.js"></script>
+<script type="text/javascript" src="js/geoxml3.js"></script>
+<script type="text/javascript" src="js/map.js"></script>
+<script type="text/javascript" src="test.js"></script>
+
+</body>
+</html>
