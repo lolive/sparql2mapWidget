@@ -2,7 +2,7 @@
 // Globals
 //
 var mapInstance;
-var parser; //Note: is now declared in the HTML so other js files can access it
+//var parser; //Note: is now declared in the HTML so other js files can access it
 var placemarkMetadata = [];    
 var placemarksVisible = true;
 var polygonsVisible   = true;
@@ -153,6 +153,5 @@ $(document).ready(function() {
 	// http://code.google.com/p/geoxml3/issues/detail?id=40
 	// We need this event to know when Geoxml3 has compltely defined the coument arrays
 	google.maps.event.addListener(parser, 'parsed', completeInit);
-parser.parse(['kml/test.kml']);
 
 });
