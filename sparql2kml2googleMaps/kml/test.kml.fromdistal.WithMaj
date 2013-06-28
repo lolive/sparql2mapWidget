@@ -1,0 +1,1713 @@
+<kml id="kml" xmlns="http://www.opengis.net/kml/2.2">
+    
+<document> 
+    
+<camera>    <longitude>113.395838</longitude>    <latitude>22.113852</latitude>    <altitude>339000</altitude>    <heading>0.0</heading>    <tilt>0</tilt>  </camera>
+
+  
+<GroundOverlay data-qrepeat="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 1" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 2" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 3" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 4" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 5" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 6" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 7" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 8" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 9" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 10" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 11" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 12" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 13" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 14" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 15" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 16" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 17" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 18" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 19" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 20" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 21" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 22" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 23" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L1_0_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 24" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 25" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 26" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 27" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 28" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 29" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 30" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 31" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 32" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 33" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 34" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 35" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 36" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 37" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 38" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 39" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 40" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 41" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 42" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 43" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 44" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 45" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 46" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 47" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 48" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 49" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 50" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 51" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 52" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 53" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 54" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 55" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 56" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 57" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 58" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 59" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 60" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 61" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 62" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 63" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 64" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 65" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 66" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 67" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 68" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.34222964226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 69" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 70" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_3.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.95683144815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.81470024815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 71" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.81470024815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.67256904815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 72" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.34222964226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 73" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_2.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.48436084226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.20009844226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 74" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_6.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38322504815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.24109384815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 75" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 76" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 77" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_4.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.09896264815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.95683144815705000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 78" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.77370484226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.76856924226043700</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 79" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_0.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.53043784815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.38830664815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 80" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_1.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">21.91583604226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.77370484226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 81" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.76862324226043600</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.62649204226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 82" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_7.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.38836064815705000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.38322504815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 83" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.05796724226043500</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">21.91583604226043400</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay><GroundOverlay data-qdef="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay 84" data-qdup="1">
+   
+<icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+    
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_5.jpg</href>
+   
+</icon>
+   
+<latlonbox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+    
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.62649204226043400</north>
+    
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.48436084226043600</south>
+    
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">114.24109384815704000</east>
+    
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">114.09896264815704000</west>
+   
+</latlonbox>
+  
+</GroundOverlay>
+
+</document>
+ 
+
+</kml>

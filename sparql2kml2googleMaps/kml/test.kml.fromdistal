@@ -1,0 +1,14 @@
+<kml id="kml" xmlns="http://www.opengis.net/kml/2.2">
+<Document> 
+<GroundOverlay data-qrepeat="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay">
+<Icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+<href>http://localhost/TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_1.jpg</href>
+</Icon>
+<LatLonBox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">22.20009844226043700</north>
+<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">22.05796724226043500</south>
+<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">113.67256904815704000</east>
+<west data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">113.53043784815704000</west>
+</LatLonBox>
+</GroundOverlay></Document>
+</kml>
