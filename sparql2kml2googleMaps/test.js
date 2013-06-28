@@ -1,4 +1,3 @@
-// Parser is already globally defined in the HTML, and initialized thanks to a previous document.ready(...)
 $(document).ready(function() {
 sparqlQueryJson(
 myquery,
