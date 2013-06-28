@@ -122,9 +122,9 @@ function completeInit() {
 
 $(document).ready(function() {
 //function handleApiReady() {
-	var latlng = new google.maps.LatLng(35.603789, -77.364693);
+	var latlng = new google.maps.LatLng(22.200098, 113.672569);
 	var mapOptions = {
-		zoom: 16,
+		zoom: 7,
 		center: latlng,
 		mapTypeId: google.maps.MapTypeId.ROADMAP,
 		mapTypeControlOptions: {
