@@ -1,0 +1,2305 @@
+<?xml version="1.0" encoding="utf-8"?><kml xmlns="http://earth.google.com/kml/2.1">
+<Document>
+<name>TerraColor_Hong_Kong_15m_1024_64</name>
+<Style>
+  <ListStyle>
+    <listItemType>checkHideChildren</listItemType>
+  </ListStyle>
+</Style>
+  <Folder xmlns:kml="http://earth.google.com/kml/2.1" kml:uri="http://hongkong/4">
+    <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L1_0_0</name>
+    <Region kml:uri="http://hongkong/5">
+      <LatLonAltBox kml:uri="http://hongkong/5">
+        <north>22.76862324226043600</north>
+        <south>21.76856924226043700</south>
+        <east>114.38836064815705000</east>
+        <west>113.38830664815704000</west>
+      </LatLonAltBox>
+      <Lod kml:uri="http://hongkong/10">
+        <minLodPixels>0</minLodPixels>
+        <maxLodPixels>-1</maxLodPixels>
+      </Lod>
+    </Region>
+    <GroundOverlay kml:uri="http://hongkong/14">
+      <drawOrder>1</drawOrder>
+      <Icon kml:uri="http://hongkong/15">
+        <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L1_0_0.jpg</href>
+      </Icon>
+      <LatLonBox kml:uri="http://hongkong/17">
+        <north>22.76862324226043600</north>
+        <south>21.76856924226043700</south>
+        <east>114.38836064815705000</east>
+        <west>113.38830664815704000</west>
+      </LatLonBox>
+    </GroundOverlay>
+    <Folder kml:uri="http://hongkong/23">
+      <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_0</name>
+      <Region kml:uri="http://hongkong/24">
+        <LatLonAltBox kml:uri="http://hongkong/24">
+          <north>22.76862324226043600</north>
+          <south>22.20009844226043700</south>
+          <east>113.95683144815705000</east>
+          <west>113.38830664815704000</west>
+        </LatLonAltBox>
+        <Lod kml:uri="http://hongkong/29">
+          <minLodPixels>512</minLodPixels>
+          <maxLodPixels>-1</maxLodPixels>
+        </Lod>
+      </Region>
+      <GroundOverlay kml:uri="http://hongkong/33">
+        <drawOrder>2</drawOrder>
+        <Icon kml:uri="http://hongkong/34">
+          <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_0.jpg</href>
+        </Icon>
+        <LatLonBox kml:uri="http://hongkong/36">
+          <north>22.76862324226043600</north>
+          <south>22.20009844226043700</south>
+          <east>113.95683144815705000</east>
+          <west>113.38830664815704000</west>
+        </LatLonBox>
+      </GroundOverlay>
+      <Folder kml:uri="http://hongkong/42">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_0</name>
+        <Region kml:uri="http://hongkong/43">
+          <LatLonAltBox kml:uri="http://hongkong/43">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/48">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/52">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/53">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_0.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/55">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/61">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_0</name>
+          <Region kml:uri="http://hongkong/62">
+            <LatLonAltBox kml:uri="http://hongkong/62">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/67">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/71">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/72">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/74">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/81">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_1</name>
+          <Region kml:uri="http://hongkong/82">
+            <LatLonAltBox kml:uri="http://hongkong/82">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/87">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/91">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/92">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/94">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/101">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_0</name>
+          <Region kml:uri="http://hongkong/102">
+            <LatLonAltBox kml:uri="http://hongkong/102">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/107">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/111">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/112">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/114">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/121">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_1</name>
+          <Region kml:uri="http://hongkong/122">
+            <LatLonAltBox kml:uri="http://hongkong/122">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/127">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/131">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/132">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/134">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/142">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_1</name>
+        <Region kml:uri="http://hongkong/143">
+          <LatLonAltBox kml:uri="http://hongkong/143">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/148">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/152">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/153">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_1.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/155">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/161">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_2</name>
+          <Region kml:uri="http://hongkong/162">
+            <LatLonAltBox kml:uri="http://hongkong/162">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/167">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/171">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/172">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/174">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/181">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_3</name>
+          <Region kml:uri="http://hongkong/182">
+            <LatLonAltBox kml:uri="http://hongkong/182">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/187">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/191">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/192">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/194">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/201">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_2</name>
+          <Region kml:uri="http://hongkong/202">
+            <LatLonAltBox kml:uri="http://hongkong/202">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/207">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/211">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/212">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/214">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/221">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_3</name>
+          <Region kml:uri="http://hongkong/222">
+            <LatLonAltBox kml:uri="http://hongkong/222">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/227">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/231">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/232">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/234">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/242">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_0</name>
+        <Region kml:uri="http://hongkong/243">
+          <LatLonAltBox kml:uri="http://hongkong/243">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/248">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/252">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/253">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_0.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/255">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/261">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_0</name>
+          <Region kml:uri="http://hongkong/262">
+            <LatLonAltBox kml:uri="http://hongkong/262">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/267">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/271">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/272">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/274">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/281">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_1</name>
+          <Region kml:uri="http://hongkong/282">
+            <LatLonAltBox kml:uri="http://hongkong/282">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/287">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/291">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/292">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/294">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/301">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_0</name>
+          <Region kml:uri="http://hongkong/302">
+            <LatLonAltBox kml:uri="http://hongkong/302">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/307">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/311">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/312">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/314">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/321">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1</name>
+          <Region kml:uri="http://hongkong/322">
+            <LatLonAltBox kml:uri="http://hongkong/322">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/327">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/331">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/332">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/334">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/342">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_1</name>
+        <Region kml:uri="http://hongkong/343">
+          <LatLonAltBox kml:uri="http://hongkong/343">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/348">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/352">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/353">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_1.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/355">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/361">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_2</name>
+          <Region kml:uri="http://hongkong/362">
+            <LatLonAltBox kml:uri="http://hongkong/362">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/367">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/371">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/372">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/374">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/381">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_3</name>
+          <Region kml:uri="http://hongkong/382">
+            <LatLonAltBox kml:uri="http://hongkong/382">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/387">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/391">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/392">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/394">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/401">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_2</name>
+          <Region kml:uri="http://hongkong/402">
+            <LatLonAltBox kml:uri="http://hongkong/402">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/407">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/411">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/412">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/414">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/421">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_3</name>
+          <Region kml:uri="http://hongkong/422">
+            <LatLonAltBox kml:uri="http://hongkong/422">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/427">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/431">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/432">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/434">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder kml:uri="http://hongkong/443">
+      <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_1</name>
+      <Region kml:uri="http://hongkong/444">
+        <LatLonAltBox kml:uri="http://hongkong/444">
+          <north>22.76862324226043600</north>
+          <south>22.20009844226043700</south>
+          <east>114.38836064815705000</east>
+          <west>113.95683144815705000</west>
+        </LatLonAltBox>
+        <Lod kml:uri="http://hongkong/449">
+          <minLodPixels>446</minLodPixels>
+          <maxLodPixels>-1</maxLodPixels>
+        </Lod>
+      </Region>
+      <GroundOverlay kml:uri="http://hongkong/453">
+        <drawOrder>2</drawOrder>
+        <Icon kml:uri="http://hongkong/454">
+          <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_1.jpg</href>
+        </Icon>
+        <LatLonBox kml:uri="http://hongkong/456">
+          <north>22.76862324226043600</north>
+          <south>22.20009844226043700</south>
+          <east>114.38836064815705000</east>
+          <west>113.95683144815705000</west>
+        </LatLonBox>
+      </GroundOverlay>
+      <Folder kml:uri="http://hongkong/462">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_2</name>
+        <Region kml:uri="http://hongkong/463">
+          <LatLonAltBox kml:uri="http://hongkong/463">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/468">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/472">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/473">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_2.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/475">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/481">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_4</name>
+          <Region kml:uri="http://hongkong/482">
+            <LatLonAltBox kml:uri="http://hongkong/482">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/487">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/491">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/492">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/494">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/501">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_5</name>
+          <Region kml:uri="http://hongkong/502">
+            <LatLonAltBox kml:uri="http://hongkong/502">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/507">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/511">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/512">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/514">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/521">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_4</name>
+          <Region kml:uri="http://hongkong/522">
+            <LatLonAltBox kml:uri="http://hongkong/522">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/527">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/531">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/532">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/534">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/541">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_5</name>
+          <Region kml:uri="http://hongkong/542">
+            <LatLonAltBox kml:uri="http://hongkong/542">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/547">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/551">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/552">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/554">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/562">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_3</name>
+        <Region kml:uri="http://hongkong/563">
+          <LatLonAltBox kml:uri="http://hongkong/563">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/568">
+            <minLodPixels>369</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/572">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/573">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_3.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/575">
+            <north>22.76862324226043600</north>
+            <south>22.48436084226043600</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/581">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_6</name>
+          <Region kml:uri="http://hongkong/582">
+            <LatLonAltBox kml:uri="http://hongkong/582">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/587">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/591">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/592">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/594">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/601">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_7</name>
+          <Region kml:uri="http://hongkong/602">
+            <LatLonAltBox kml:uri="http://hongkong/602">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/607">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/611">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/612">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/614">
+              <north>22.76862324226043600</north>
+              <south>22.62649204226043400</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/621">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_6</name>
+          <Region kml:uri="http://hongkong/622">
+            <LatLonAltBox kml:uri="http://hongkong/622">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/627">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/631">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/632">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/634">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/641">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_7</name>
+          <Region kml:uri="http://hongkong/642">
+            <LatLonAltBox kml:uri="http://hongkong/642">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/647">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/651">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/652">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/654">
+              <north>22.62649204226043400</north>
+              <south>22.48436084226043600</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/662">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_2</name>
+        <Region kml:uri="http://hongkong/663">
+          <LatLonAltBox kml:uri="http://hongkong/663">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/668">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/672">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/673">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_2.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/675">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/681">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_4</name>
+          <Region kml:uri="http://hongkong/682">
+            <LatLonAltBox kml:uri="http://hongkong/682">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/687">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/691">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/692">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/694">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/701">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_5</name>
+          <Region kml:uri="http://hongkong/702">
+            <LatLonAltBox kml:uri="http://hongkong/702">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/707">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/711">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/712">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/714">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/721">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_4</name>
+          <Region kml:uri="http://hongkong/722">
+            <LatLonAltBox kml:uri="http://hongkong/722">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/727">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/731">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/732">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/734">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/741">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_5</name>
+          <Region kml:uri="http://hongkong/742">
+            <LatLonAltBox kml:uri="http://hongkong/742">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/747">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/751">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/752">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/754">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/762">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_3</name>
+        <Region kml:uri="http://hongkong/763">
+          <LatLonAltBox kml:uri="http://hongkong/763">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/768">
+            <minLodPixels>369</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/772">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/773">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_3.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/775">
+            <north>22.48436084226043600</north>
+            <south>22.20009844226043700</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/781">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_6</name>
+          <Region kml:uri="http://hongkong/782">
+            <LatLonAltBox kml:uri="http://hongkong/782">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/787">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/791">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/792">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/794">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/801">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_7</name>
+          <Region kml:uri="http://hongkong/802">
+            <LatLonAltBox kml:uri="http://hongkong/802">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/807">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/811">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/812">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/814">
+              <north>22.48436084226043600</north>
+              <south>22.34222964226043500</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/821">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_6</name>
+          <Region kml:uri="http://hongkong/822">
+            <LatLonAltBox kml:uri="http://hongkong/822">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/827">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/831">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/832">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/834">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/841">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_7</name>
+          <Region kml:uri="http://hongkong/842">
+            <LatLonAltBox kml:uri="http://hongkong/842">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/847">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/851">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/852">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/854">
+              <north>22.34222964226043500</north>
+              <south>22.20009844226043700</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder kml:uri="http://hongkong/863">
+      <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_0</name>
+      <Region kml:uri="http://hongkong/864">
+        <LatLonAltBox kml:uri="http://hongkong/864">
+          <north>22.20009844226043700</north>
+          <south>21.76856924226043700</south>
+          <east>113.95683144815705000</east>
+          <west>113.38830664815704000</west>
+        </LatLonAltBox>
+        <Lod kml:uri="http://hongkong/869">
+          <minLodPixels>446</minLodPixels>
+          <maxLodPixels>-1</maxLodPixels>
+        </Lod>
+      </Region>
+      <GroundOverlay kml:uri="http://hongkong/873">
+        <drawOrder>2</drawOrder>
+        <Icon kml:uri="http://hongkong/874">
+          <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_0.jpg</href>
+        </Icon>
+        <LatLonBox kml:uri="http://hongkong/876">
+          <north>22.20009844226043700</north>
+          <south>21.76856924226043700</south>
+          <east>113.95683144815705000</east>
+          <west>113.38830664815704000</west>
+        </LatLonBox>
+      </GroundOverlay>
+      <Folder kml:uri="http://hongkong/882">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_0</name>
+        <Region kml:uri="http://hongkong/883">
+          <LatLonAltBox kml:uri="http://hongkong/883">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/888">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/892">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/893">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_0.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/895">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/901">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_0</name>
+          <Region kml:uri="http://hongkong/902">
+            <LatLonAltBox kml:uri="http://hongkong/902">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/907">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/911">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/912">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/914">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/921">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_1</name>
+          <Region kml:uri="http://hongkong/922">
+            <LatLonAltBox kml:uri="http://hongkong/922">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/927">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/931">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/932">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/934">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/941">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_0</name>
+          <Region kml:uri="http://hongkong/942">
+            <LatLonAltBox kml:uri="http://hongkong/942">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/947">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/951">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/952">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/954">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/961">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_1</name>
+          <Region kml:uri="http://hongkong/962">
+            <LatLonAltBox kml:uri="http://hongkong/962">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/967">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/971">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/972">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/974">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/982">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_1</name>
+        <Region kml:uri="http://hongkong/983">
+          <LatLonAltBox kml:uri="http://hongkong/983">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/988">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/992">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/993">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_1.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/995">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1001">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_2</name>
+          <Region kml:uri="http://hongkong/1002">
+            <LatLonAltBox kml:uri="http://hongkong/1002">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1007">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1011">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1012">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1014">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1021">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_3</name>
+          <Region kml:uri="http://hongkong/1022">
+            <LatLonAltBox kml:uri="http://hongkong/1022">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1027">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1031">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1032">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1034">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1041">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_2</name>
+          <Region kml:uri="http://hongkong/1042">
+            <LatLonAltBox kml:uri="http://hongkong/1042">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1047">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1051">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1052">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1054">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1061">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_3</name>
+          <Region kml:uri="http://hongkong/1062">
+            <LatLonAltBox kml:uri="http://hongkong/1062">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1067">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1071">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1072">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1074">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/1082">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_0</name>
+        <Region kml:uri="http://hongkong/1083">
+          <LatLonAltBox kml:uri="http://hongkong/1083">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/1088">
+            <minLodPixels>368</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/1092">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/1093">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_0.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/1095">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>113.67256904815704000</east>
+            <west>113.38830664815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1101">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_0</name>
+          <Region kml:uri="http://hongkong/1102">
+            <LatLonAltBox kml:uri="http://hongkong/1102">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1107">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1111">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1112">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1114">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1121">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_1</name>
+          <Region kml:uri="http://hongkong/1122">
+            <LatLonAltBox kml:uri="http://hongkong/1122">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1127">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1131">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1132">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1134">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1141">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_0</name>
+          <Region kml:uri="http://hongkong/1142">
+            <LatLonAltBox kml:uri="http://hongkong/1142">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1147">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1151">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1152">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_0.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1154">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.53043784815704000</east>
+              <west>113.38830664815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1161">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_1</name>
+          <Region kml:uri="http://hongkong/1162">
+            <LatLonAltBox kml:uri="http://hongkong/1162">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1167">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1171">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1172">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_1.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1174">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.67256904815704000</east>
+              <west>113.53043784815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/1182">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_1</name>
+        <Region kml:uri="http://hongkong/1183">
+          <LatLonAltBox kml:uri="http://hongkong/1183">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/1188">
+            <minLodPixels>368</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/1192">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/1193">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_1.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/1195">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>113.95683144815705000</east>
+            <west>113.67256904815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1201">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_2</name>
+          <Region kml:uri="http://hongkong/1202">
+            <LatLonAltBox kml:uri="http://hongkong/1202">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1207">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1211">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1212">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1214">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1221">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_3</name>
+          <Region kml:uri="http://hongkong/1222">
+            <LatLonAltBox kml:uri="http://hongkong/1222">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1227">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1231">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1232">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1234">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1241">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_2</name>
+          <Region kml:uri="http://hongkong/1242">
+            <LatLonAltBox kml:uri="http://hongkong/1242">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1247">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1251">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1252">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_2.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1254">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.81470024815704000</east>
+              <west>113.67256904815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1261">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_3</name>
+          <Region kml:uri="http://hongkong/1262">
+            <LatLonAltBox kml:uri="http://hongkong/1262">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1267">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1271">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1272">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_3.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1274">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>113.95683144815705000</east>
+              <west>113.81470024815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+    </Folder>
+    <Folder kml:uri="http://hongkong/1283">
+      <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_1</name>
+      <Region kml:uri="http://hongkong/1284">
+        <LatLonAltBox kml:uri="http://hongkong/1284">
+          <north>22.20009844226043700</north>
+          <south>21.76856924226043700</south>
+          <east>114.38836064815705000</east>
+          <west>113.95683144815705000</west>
+        </LatLonAltBox>
+        <Lod kml:uri="http://hongkong/1289">
+          <minLodPixels>388</minLodPixels>
+          <maxLodPixels>-1</maxLodPixels>
+        </Lod>
+      </Region>
+      <GroundOverlay kml:uri="http://hongkong/1293">
+        <drawOrder>2</drawOrder>
+        <Icon kml:uri="http://hongkong/1294">
+          <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_1.jpg</href>
+        </Icon>
+        <LatLonBox kml:uri="http://hongkong/1296">
+          <north>22.20009844226043700</north>
+          <south>21.76856924226043700</south>
+          <east>114.38836064815705000</east>
+          <west>113.95683144815705000</west>
+        </LatLonBox>
+      </GroundOverlay>
+      <Folder kml:uri="http://hongkong/1302">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_2</name>
+        <Region kml:uri="http://hongkong/1303">
+          <LatLonAltBox kml:uri="http://hongkong/1303">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/1308">
+            <minLodPixels>512</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/1312">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/1313">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_2.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/1315">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1321">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_4</name>
+          <Region kml:uri="http://hongkong/1322">
+            <LatLonAltBox kml:uri="http://hongkong/1322">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1327">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1331">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1332">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1334">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1341">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_5</name>
+          <Region kml:uri="http://hongkong/1342">
+            <LatLonAltBox kml:uri="http://hongkong/1342">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1347">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1351">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1352">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1354">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1361">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_4</name>
+          <Region kml:uri="http://hongkong/1362">
+            <LatLonAltBox kml:uri="http://hongkong/1362">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1367">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1371">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1372">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1374">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1381">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_5</name>
+          <Region kml:uri="http://hongkong/1382">
+            <LatLonAltBox kml:uri="http://hongkong/1382">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1387">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1391">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1392">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1394">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/1402">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_3</name>
+        <Region kml:uri="http://hongkong/1403">
+          <LatLonAltBox kml:uri="http://hongkong/1403">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/1408">
+            <minLodPixels>369</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/1412">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/1413">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_3.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/1415">
+            <north>22.20009844226043700</north>
+            <south>21.91583604226043400</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1421">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_6</name>
+          <Region kml:uri="http://hongkong/1422">
+            <LatLonAltBox kml:uri="http://hongkong/1422">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1427">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1431">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1432">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1434">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1441">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_7</name>
+          <Region kml:uri="http://hongkong/1442">
+            <LatLonAltBox kml:uri="http://hongkong/1442">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1447">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1451">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1452">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1454">
+              <north>22.20009844226043700</north>
+              <south>22.05796724226043500</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1461">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_6</name>
+          <Region kml:uri="http://hongkong/1462">
+            <LatLonAltBox kml:uri="http://hongkong/1462">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1467">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1471">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1472">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1474">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1481">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_7</name>
+          <Region kml:uri="http://hongkong/1482">
+            <LatLonAltBox kml:uri="http://hongkong/1482">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1487">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1491">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1492">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1494">
+              <north>22.05796724226043500</north>
+              <south>21.91583604226043400</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/1502">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_2</name>
+        <Region kml:uri="http://hongkong/1503">
+          <LatLonAltBox kml:uri="http://hongkong/1503">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/1508">
+            <minLodPixels>368</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/1512">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/1513">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_2.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/1515">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>114.24109384815704000</east>
+            <west>113.95683144815705000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1521">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_4</name>
+          <Region kml:uri="http://hongkong/1522">
+            <LatLonAltBox kml:uri="http://hongkong/1522">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1527">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1531">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1532">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1534">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1541">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_5</name>
+          <Region kml:uri="http://hongkong/1542">
+            <LatLonAltBox kml:uri="http://hongkong/1542">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1547">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1551">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1552">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1554">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1561">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_4</name>
+          <Region kml:uri="http://hongkong/1562">
+            <LatLonAltBox kml:uri="http://hongkong/1562">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1567">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1571">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1572">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_4.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1574">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.09896264815704000</east>
+              <west>113.95683144815705000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1581">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_5</name>
+          <Region kml:uri="http://hongkong/1582">
+            <LatLonAltBox kml:uri="http://hongkong/1582">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1587">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1591">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1592">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_5.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1594">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.24109384815704000</east>
+              <west>114.09896264815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+      <Folder kml:uri="http://hongkong/1602">
+        <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_3</name>
+        <Region kml:uri="http://hongkong/1603">
+          <LatLonAltBox kml:uri="http://hongkong/1603">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonAltBox>
+          <Lod kml:uri="http://hongkong/1608">
+            <minLodPixels>265</minLodPixels>
+            <maxLodPixels>-1</maxLodPixels>
+          </Lod>
+        </Region>
+        <GroundOverlay kml:uri="http://hongkong/1612">
+          <drawOrder>3</drawOrder>
+          <Icon kml:uri="http://hongkong/1613">
+            <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_3.jpg</href>
+          </Icon>
+          <LatLonBox kml:uri="http://hongkong/1615">
+            <north>21.91583604226043400</north>
+            <south>21.76856924226043700</south>
+            <east>114.38836064815705000</east>
+            <west>114.24109384815704000</west>
+          </LatLonBox>
+        </GroundOverlay>
+        <Folder kml:uri="http://hongkong/1621">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_6</name>
+          <Region kml:uri="http://hongkong/1622">
+            <LatLonAltBox kml:uri="http://hongkong/1622">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1627">
+              <minLodPixels>512</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1631">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1632">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1634">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1641">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_7</name>
+          <Region kml:uri="http://hongkong/1642">
+            <LatLonAltBox kml:uri="http://hongkong/1642">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1647">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1651">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1652">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1654">
+              <north>21.91583604226043400</north>
+              <south>21.77370484226043600</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1661">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_6</name>
+          <Region kml:uri="http://hongkong/1662">
+            <LatLonAltBox kml:uri="http://hongkong/1662">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1667">
+              <minLodPixels>97</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1671">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1672">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_6.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1674">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.38322504815704000</east>
+              <west>114.24109384815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+        <Folder kml:uri="http://hongkong/1681">
+          <name>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_7</name>
+          <Region kml:uri="http://hongkong/1682">
+            <LatLonAltBox kml:uri="http://hongkong/1682">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonAltBox>
+            <Lod kml:uri="http://hongkong/1687">
+              <minLodPixels>18</minLodPixels>
+              <maxLodPixels>-1</maxLodPixels>
+            </Lod>
+          </Region>
+          <GroundOverlay kml:uri="http://hongkong/1691">
+            <drawOrder>4</drawOrder>
+            <Icon kml:uri="http://hongkong/1692">
+              <href>TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_7.jpg</href>
+            </Icon>
+            <LatLonBox kml:uri="http://hongkong/1694">
+              <north>21.77370484226043600</north>
+              <south>21.76856924226043700</south>
+              <east>114.38836064815705000</east>
+              <west>114.38322504815704000</west>
+            </LatLonBox>
+          </GroundOverlay>
+        </Folder>
+      </Folder>
+    </Folder>
+  </Folder>
+</Document>
+</kml>

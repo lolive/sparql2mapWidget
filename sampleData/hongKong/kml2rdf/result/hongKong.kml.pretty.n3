@@ -1,0 +1,2814 @@
+#Processed by Id: cwm.py,v 1.197 2007/12/13 15:38:39 syosi Exp 
+        #    using base file:///home/lolive/RDF2KML/hongKong.kml.n3
+        
+#  Notation3 generation by
+#       notation3.py,v 1.200 2007/12/11 21:18:08 syosi Exp
+
+#   Base was: file:///home/lolive/RDF2KML/hongKong.kml.n3
+     @prefix : <#> .
+    
+    <http://hongkong/10>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "0" .
+    
+    <http://hongkong/1001>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1011>;
+         :hasRegion <http://hongkong/1002>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_2" .
+    
+    <http://hongkong/1002>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/1002>;
+         :hasLod <http://hongkong/1007>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1007>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/101>     a :Folder;
+         :hasGroundOverlay <http://hongkong/111>;
+         :hasRegion <http://hongkong/102>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_0" .
+    
+    <http://hongkong/1011>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1012>;
+         :hasLatLonBox <http://hongkong/1014> .
+    
+    <http://hongkong/1012>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_2.jpg" .
+    
+    <http://hongkong/1014>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/102>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/102>;
+         :hasLod <http://hongkong/107>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1021>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1031>;
+         :hasRegion <http://hongkong/1022>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_3" .
+    
+    <http://hongkong/1022>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/1022>;
+         :hasLod <http://hongkong/1027>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1027>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1031>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1032>;
+         :hasLatLonBox <http://hongkong/1034> .
+    
+    <http://hongkong/1032>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_3.jpg" .
+    
+    <http://hongkong/1034>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1041>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1051>;
+         :hasRegion <http://hongkong/1042>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_2" .
+    
+    <http://hongkong/1042>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/1042>;
+         :hasLod <http://hongkong/1047>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1047>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1051>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1052>;
+         :hasLatLonBox <http://hongkong/1054> .
+    
+    <http://hongkong/1052>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_2.jpg" .
+    
+    <http://hongkong/1054>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1061>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1071>;
+         :hasRegion <http://hongkong/1062>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_3" .
+    
+    <http://hongkong/1062>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/1062>;
+         :hasLod <http://hongkong/1067>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1067>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/107>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1071>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1072>;
+         :hasLatLonBox <http://hongkong/1074> .
+    
+    <http://hongkong/1072>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_3.jpg" .
+    
+    <http://hongkong/1074>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1082>     a :Folder;
+         :hasFolder <http://hongkong/1101>,
+                <http://hongkong/1121>,
+                <http://hongkong/1141>,
+                <http://hongkong/1161>;
+         :hasGroundOverlay <http://hongkong/1092>;
+         :hasRegion <http://hongkong/1083>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_0" .
+    
+    <http://hongkong/1083>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/1083>;
+         :hasLod <http://hongkong/1088>;
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1088>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "368" .
+    
+    <http://hongkong/1092>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/1093>;
+         :hasLatLonBox <http://hongkong/1095> .
+    
+    <http://hongkong/1093>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_0.jpg" .
+    
+    <http://hongkong/1095>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1101>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1111>;
+         :hasRegion <http://hongkong/1102>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_0" .
+    
+    <http://hongkong/1102>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/1102>;
+         :hasLod <http://hongkong/1107>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1107>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/111>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/112>;
+         :hasLatLonBox <http://hongkong/114> .
+    
+    <http://hongkong/1111>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1112>;
+         :hasLatLonBox <http://hongkong/1114> .
+    
+    <http://hongkong/1112>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_0.jpg" .
+    
+    <http://hongkong/1114>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/112>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_0.jpg" .
+    
+    <http://hongkong/1121>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1131>;
+         :hasRegion <http://hongkong/1122>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_1" .
+    
+    <http://hongkong/1122>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/1122>;
+         :hasLod <http://hongkong/1127>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/1127>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1131>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1132>;
+         :hasLatLonBox <http://hongkong/1134> .
+    
+    <http://hongkong/1132>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_1.jpg" .
+    
+    <http://hongkong/1134>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/114>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1141>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1151>;
+         :hasRegion <http://hongkong/1142>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_0" .
+    
+    <http://hongkong/1142>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/1142>;
+         :hasLod <http://hongkong/1147>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1147>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1151>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1152>;
+         :hasLatLonBox <http://hongkong/1154> .
+    
+    <http://hongkong/1152>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_0.jpg" .
+    
+    <http://hongkong/1154>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/1161>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1171>;
+         :hasRegion <http://hongkong/1162>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_1" .
+    
+    <http://hongkong/1162>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/1162>;
+         :hasLod <http://hongkong/1167>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/1167>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1171>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1172>;
+         :hasLatLonBox <http://hongkong/1174> .
+    
+    <http://hongkong/1172>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_1.jpg" .
+    
+    <http://hongkong/1174>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/1182>     a :Folder;
+         :hasFolder <http://hongkong/1201>,
+                <http://hongkong/1221>,
+                <http://hongkong/1241>,
+                <http://hongkong/1261>;
+         :hasGroundOverlay <http://hongkong/1192>;
+         :hasRegion <http://hongkong/1183>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_1" .
+    
+    <http://hongkong/1183>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/1183>;
+         :hasLod <http://hongkong/1188>;
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1188>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "368" .
+    
+    <http://hongkong/1192>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/1193>;
+         :hasLatLonBox <http://hongkong/1195> .
+    
+    <http://hongkong/1193>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_1.jpg" .
+    
+    <http://hongkong/1195>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1201>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1211>;
+         :hasRegion <http://hongkong/1202>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_2" .
+    
+    <http://hongkong/1202>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/1202>;
+         :hasLod <http://hongkong/1207>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1207>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/121>     a :Folder;
+         :hasGroundOverlay <http://hongkong/131>;
+         :hasRegion <http://hongkong/122>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_1" .
+    
+    <http://hongkong/1211>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1212>;
+         :hasLatLonBox <http://hongkong/1214> .
+    
+    <http://hongkong/1212>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_2.jpg" .
+    
+    <http://hongkong/1214>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/122>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/122>;
+         :hasLod <http://hongkong/127>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/1221>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1231>;
+         :hasRegion <http://hongkong/1222>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_3" .
+    
+    <http://hongkong/1222>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/1222>;
+         :hasLod <http://hongkong/1227>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1227>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1231>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1232>;
+         :hasLatLonBox <http://hongkong/1234> .
+    
+    <http://hongkong/1232>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_3.jpg" .
+    
+    <http://hongkong/1234>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1241>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1251>;
+         :hasRegion <http://hongkong/1242>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_2" .
+    
+    <http://hongkong/1242>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/1242>;
+         :hasLod <http://hongkong/1247>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1247>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1251>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1252>;
+         :hasLatLonBox <http://hongkong/1254> .
+    
+    <http://hongkong/1252>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_2.jpg" .
+    
+    <http://hongkong/1254>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1261>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1271>;
+         :hasRegion <http://hongkong/1262>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_3" .
+    
+    <http://hongkong/1262>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/1262>;
+         :hasLod <http://hongkong/1267>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1267>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/127>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1271>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1272>;
+         :hasLatLonBox <http://hongkong/1274> .
+    
+    <http://hongkong/1272>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_3.jpg" .
+    
+    <http://hongkong/1274>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/1283>     a :Folder;
+         :hasFolder <http://hongkong/1302>,
+                <http://hongkong/1402>,
+                <http://hongkong/1502>,
+                <http://hongkong/1602>;
+         :hasGroundOverlay <http://hongkong/1293>;
+         :hasRegion <http://hongkong/1284>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_1" .
+    
+    <http://hongkong/1284>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1284>;
+         :hasLod <http://hongkong/1289>;
+         :north "22.20009844226043700";
+         :south "21.76856924226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1289>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "388" .
+    
+    <http://hongkong/1293>     a :GroundOverlay;
+         :drawOrder "2";
+         :hasIcon <http://hongkong/1294>;
+         :hasLatLonBox <http://hongkong/1296> .
+    
+    <http://hongkong/1294>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_1.jpg" .
+    
+    <http://hongkong/1296>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.20009844226043700";
+         :south "21.76856924226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1302>     a :Folder;
+         :hasFolder <http://hongkong/1321>,
+                <http://hongkong/1341>,
+                <http://hongkong/1361>,
+                <http://hongkong/1381>;
+         :hasGroundOverlay <http://hongkong/1312>;
+         :hasRegion <http://hongkong/1303>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_2" .
+    
+    <http://hongkong/1303>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/1303>;
+         :hasLod <http://hongkong/1308>;
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1308>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/131>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/132>;
+         :hasLatLonBox <http://hongkong/134> .
+    
+    <http://hongkong/1312>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/1313>;
+         :hasLatLonBox <http://hongkong/1315> .
+    
+    <http://hongkong/1313>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_2.jpg" .
+    
+    <http://hongkong/1315>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/132>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_1.jpg" .
+    
+    <http://hongkong/1321>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1331>;
+         :hasRegion <http://hongkong/1322>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_4" .
+    
+    <http://hongkong/1322>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/1322>;
+         :hasLod <http://hongkong/1327>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1327>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1331>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1332>;
+         :hasLatLonBox <http://hongkong/1334> .
+    
+    <http://hongkong/1332>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_4.jpg" .
+    
+    <http://hongkong/1334>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/134>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/1341>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1351>;
+         :hasRegion <http://hongkong/1342>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_5" .
+    
+    <http://hongkong/1342>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/1342>;
+         :hasLod <http://hongkong/1347>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1347>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1351>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1352>;
+         :hasLatLonBox <http://hongkong/1354> .
+    
+    <http://hongkong/1352>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_5.jpg" .
+    
+    <http://hongkong/1354>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1361>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1371>;
+         :hasRegion <http://hongkong/1362>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_4" .
+    
+    <http://hongkong/1362>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/1362>;
+         :hasLod <http://hongkong/1367>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1367>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1371>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1372>;
+         :hasLatLonBox <http://hongkong/1374> .
+    
+    <http://hongkong/1372>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_4.jpg" .
+    
+    <http://hongkong/1374>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1381>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1391>;
+         :hasRegion <http://hongkong/1382>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_5" .
+    
+    <http://hongkong/1382>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/1382>;
+         :hasLod <http://hongkong/1387>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1387>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1391>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1392>;
+         :hasLatLonBox <http://hongkong/1394> .
+    
+    <http://hongkong/1392>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_5.jpg" .
+    
+    <http://hongkong/1394>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/14>     a :GroundOverlay;
+         :drawOrder "1";
+         :hasIcon <http://hongkong/15>;
+         :hasLatLonBox <http://hongkong/17> .
+    
+    <http://hongkong/1402>     a :Folder;
+         :hasFolder <http://hongkong/1421>,
+                <http://hongkong/1441>,
+                <http://hongkong/1461>,
+                <http://hongkong/1481>;
+         :hasGroundOverlay <http://hongkong/1412>;
+         :hasRegion <http://hongkong/1403>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_3" .
+    
+    <http://hongkong/1403>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1403>;
+         :hasLod <http://hongkong/1408>;
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1408>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "369" .
+    
+    <http://hongkong/1412>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/1413>;
+         :hasLatLonBox <http://hongkong/1415> .
+    
+    <http://hongkong/1413>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_3.jpg" .
+    
+    <http://hongkong/1415>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/142>     a :Folder;
+         :hasFolder <http://hongkong/161>,
+                <http://hongkong/181>,
+                <http://hongkong/201>,
+                <http://hongkong/221>;
+         :hasGroundOverlay <http://hongkong/152>;
+         :hasRegion <http://hongkong/143>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_1" .
+    
+    <http://hongkong/1421>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1431>;
+         :hasRegion <http://hongkong/1422>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_6" .
+    
+    <http://hongkong/1422>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/1422>;
+         :hasLod <http://hongkong/1427>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1427>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/143>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/143>;
+         :hasLod <http://hongkong/148>;
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1431>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1432>;
+         :hasLatLonBox <http://hongkong/1434> .
+    
+    <http://hongkong/1432>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_6.jpg" .
+    
+    <http://hongkong/1434>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1441>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1451>;
+         :hasRegion <http://hongkong/1442>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_7" .
+    
+    <http://hongkong/1442>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1442>;
+         :hasLod <http://hongkong/1447>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/1447>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1451>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1452>;
+         :hasLatLonBox <http://hongkong/1454> .
+    
+    <http://hongkong/1452>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_7.jpg" .
+    
+    <http://hongkong/1454>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/1461>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1471>;
+         :hasRegion <http://hongkong/1462>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_6" .
+    
+    <http://hongkong/1462>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/1462>;
+         :hasLod <http://hongkong/1467>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1467>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1471>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1472>;
+         :hasLatLonBox <http://hongkong/1474> .
+    
+    <http://hongkong/1472>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_6.jpg" .
+    
+    <http://hongkong/1474>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/148>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1481>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1491>;
+         :hasRegion <http://hongkong/1482>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_7" .
+    
+    <http://hongkong/1482>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1482>;
+         :hasLod <http://hongkong/1487>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/1487>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1491>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1492>;
+         :hasLatLonBox <http://hongkong/1494> .
+    
+    <http://hongkong/1492>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_7.jpg" .
+    
+    <http://hongkong/1494>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/15>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L1_0_0.jpg" .
+    
+    <http://hongkong/1502>     a :Folder;
+         :hasFolder <http://hongkong/1521>,
+                <http://hongkong/1541>,
+                <http://hongkong/1561>,
+                <http://hongkong/1581>;
+         :hasGroundOverlay <http://hongkong/1512>;
+         :hasRegion <http://hongkong/1503>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_2" .
+    
+    <http://hongkong/1503>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/1503>;
+         :hasLod <http://hongkong/1508>;
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1508>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "368" .
+    
+    <http://hongkong/1512>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/1513>;
+         :hasLatLonBox <http://hongkong/1515> .
+    
+    <http://hongkong/1513>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_2.jpg" .
+    
+    <http://hongkong/1515>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/152>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/153>;
+         :hasLatLonBox <http://hongkong/155> .
+    
+    <http://hongkong/1521>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1531>;
+         :hasRegion <http://hongkong/1522>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_4" .
+    
+    <http://hongkong/1522>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/1522>;
+         :hasLod <http://hongkong/1527>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1527>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/153>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_1.jpg" .
+    
+    <http://hongkong/1531>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1532>;
+         :hasLatLonBox <http://hongkong/1534> .
+    
+    <http://hongkong/1532>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_4.jpg" .
+    
+    <http://hongkong/1534>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1541>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1551>;
+         :hasRegion <http://hongkong/1542>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_5" .
+    
+    <http://hongkong/1542>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/1542>;
+         :hasLod <http://hongkong/1547>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1547>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/155>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1551>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1552>;
+         :hasLatLonBox <http://hongkong/1554> .
+    
+    <http://hongkong/1552>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_5.jpg" .
+    
+    <http://hongkong/1554>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1561>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1571>;
+         :hasRegion <http://hongkong/1562>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_4" .
+    
+    <http://hongkong/1562>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/1562>;
+         :hasLod <http://hongkong/1567>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1567>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1571>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1572>;
+         :hasLatLonBox <http://hongkong/1574> .
+    
+    <http://hongkong/1572>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_4.jpg" .
+    
+    <http://hongkong/1574>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/1581>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1591>;
+         :hasRegion <http://hongkong/1582>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_5" .
+    
+    <http://hongkong/1582>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/1582>;
+         :hasLod <http://hongkong/1587>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1587>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1591>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1592>;
+         :hasLatLonBox <http://hongkong/1594> .
+    
+    <http://hongkong/1592>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_5.jpg" .
+    
+    <http://hongkong/1594>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/1602>     a :Folder;
+         :hasFolder <http://hongkong/1621>,
+                <http://hongkong/1641>,
+                <http://hongkong/1661>,
+                <http://hongkong/1681>;
+         :hasGroundOverlay <http://hongkong/1612>;
+         :hasRegion <http://hongkong/1603>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_3" .
+    
+    <http://hongkong/1603>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1603>;
+         :hasLod <http://hongkong/1608>;
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1608>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "265" .
+    
+    <http://hongkong/161>     a :Folder;
+         :hasGroundOverlay <http://hongkong/171>;
+         :hasRegion <http://hongkong/162>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_2" .
+    
+    <http://hongkong/1612>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/1613>;
+         :hasLatLonBox <http://hongkong/1615> .
+    
+    <http://hongkong/1613>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_3_3.jpg" .
+    
+    <http://hongkong/1615>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "21.91583604226043400";
+         :south "21.76856924226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/162>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/162>;
+         :hasLod <http://hongkong/167>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/1621>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1631>;
+         :hasRegion <http://hongkong/1622>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_6" .
+    
+    <http://hongkong/1622>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/1622>;
+         :hasLod <http://hongkong/1627>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1627>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1631>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1632>;
+         :hasLatLonBox <http://hongkong/1634> .
+    
+    <http://hongkong/1632>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_6.jpg" .
+    
+    <http://hongkong/1634>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1641>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1651>;
+         :hasRegion <http://hongkong/1642>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_7" .
+    
+    <http://hongkong/1642>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1642>;
+         :hasLod <http://hongkong/1647>;
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/1647>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/1651>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1652>;
+         :hasLatLonBox <http://hongkong/1654> .
+    
+    <http://hongkong/1652>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_6_7.jpg" .
+    
+    <http://hongkong/1654>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "21.91583604226043400";
+         :south "21.77370484226043600";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/1661>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1671>;
+         :hasRegion <http://hongkong/1662>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_6" .
+    
+    <http://hongkong/1662>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/1662>;
+         :hasLod <http://hongkong/1667>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1667>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/167>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/1671>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1672>;
+         :hasLatLonBox <http://hongkong/1674> .
+    
+    <http://hongkong/1672>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_6.jpg" .
+    
+    <http://hongkong/1674>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/1681>     a :Folder;
+         :hasGroundOverlay <http://hongkong/1691>;
+         :hasRegion <http://hongkong/1682>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_7" .
+    
+    <http://hongkong/1682>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/1682>;
+         :hasLod <http://hongkong/1687>;
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/1687>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "18" .
+    
+    <http://hongkong/1691>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/1692>;
+         :hasLatLonBox <http://hongkong/1694> .
+    
+    <http://hongkong/1692>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_7_7.jpg" .
+    
+    <http://hongkong/1694>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "21.77370484226043600";
+         :south "21.76856924226043700";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/17>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.76862324226043600";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/171>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/172>;
+         :hasLatLonBox <http://hongkong/174> .
+    
+    <http://hongkong/172>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_2.jpg" .
+    
+    <http://hongkong/174>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/181>     a :Folder;
+         :hasGroundOverlay <http://hongkong/191>;
+         :hasRegion <http://hongkong/182>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_3" .
+    
+    <http://hongkong/182>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/182>;
+         :hasLod <http://hongkong/187>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/187>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/191>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/192>;
+         :hasLatLonBox <http://hongkong/194> .
+    
+    <http://hongkong/192>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_3.jpg" .
+    
+    <http://hongkong/194>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/201>     a :Folder;
+         :hasGroundOverlay <http://hongkong/211>;
+         :hasRegion <http://hongkong/202>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_2" .
+    
+    <http://hongkong/202>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/202>;
+         :hasLod <http://hongkong/207>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/207>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/211>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/212>;
+         :hasLatLonBox <http://hongkong/214> .
+    
+    <http://hongkong/212>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_2.jpg" .
+    
+    <http://hongkong/214>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/221>     a :Folder;
+         :hasGroundOverlay <http://hongkong/231>;
+         :hasRegion <http://hongkong/222>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_3" .
+    
+    <http://hongkong/222>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/222>;
+         :hasLod <http://hongkong/227>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/227>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/23>     a :Folder;
+         :hasFolder <http://hongkong/142>,
+                <http://hongkong/242>,
+                <http://hongkong/342>,
+                <http://hongkong/42>;
+         :hasGroundOverlay <http://hongkong/33>;
+         :hasRegion <http://hongkong/24>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_0" .
+    
+    <http://hongkong/231>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/232>;
+         :hasLatLonBox <http://hongkong/234> .
+    
+    <http://hongkong/232>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_3.jpg" .
+    
+    <http://hongkong/234>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/24>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/24>;
+         :hasLod <http://hongkong/29>;
+         :north "22.76862324226043600";
+         :south "22.20009844226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/242>     a :Folder;
+         :hasFolder <http://hongkong/261>,
+                <http://hongkong/281>,
+                <http://hongkong/301>,
+                <http://hongkong/321>;
+         :hasGroundOverlay <http://hongkong/252>;
+         :hasRegion <http://hongkong/243>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_0" .
+    
+    <http://hongkong/243>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/243>;
+         :hasLod <http://hongkong/248>;
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/248>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/252>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/253>;
+         :hasLatLonBox <http://hongkong/255> .
+    
+    <http://hongkong/253>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_0.jpg" .
+    
+    <http://hongkong/255>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/261>     a :Folder;
+         :hasGroundOverlay <http://hongkong/271>;
+         :hasRegion <http://hongkong/262>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_0" .
+    
+    <http://hongkong/262>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/262>;
+         :hasLod <http://hongkong/267>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/267>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/271>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/272>;
+         :hasLatLonBox <http://hongkong/274> .
+    
+    <http://hongkong/272>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_0.jpg" .
+    
+    <http://hongkong/274>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/281>     a :Folder;
+         :hasGroundOverlay <http://hongkong/291>;
+         :hasRegion <http://hongkong/282>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_1" .
+    
+    <http://hongkong/282>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/282>;
+         :hasLod <http://hongkong/287>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/287>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/29>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/291>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/292>;
+         :hasLatLonBox <http://hongkong/294> .
+    
+    <http://hongkong/292>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_1.jpg" .
+    
+    <http://hongkong/294>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/301>     a :Folder;
+         :hasGroundOverlay <http://hongkong/311>;
+         :hasRegion <http://hongkong/302>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_0" .
+    
+    <http://hongkong/302>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/302>;
+         :hasLod <http://hongkong/307>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/307>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/311>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/312>;
+         :hasLatLonBox <http://hongkong/314> .
+    
+    <http://hongkong/312>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_0.jpg" .
+    
+    <http://hongkong/314>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/321>     a :Folder;
+         :hasGroundOverlay <http://hongkong/331>;
+         :hasRegion <http://hongkong/322>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1" .
+    
+    <http://hongkong/322>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/322>;
+         :hasLod <http://hongkong/327>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/327>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/33>     a :GroundOverlay;
+         :drawOrder "2";
+         :hasIcon <http://hongkong/34>;
+         :hasLatLonBox <http://hongkong/36> .
+    
+    <http://hongkong/331>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/332>;
+         :hasLatLonBox <http://hongkong/334> .
+    
+    <http://hongkong/332>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg" .
+    
+    <http://hongkong/334>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/34>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_0.jpg" .
+    
+    <http://hongkong/342>     a :Folder;
+         :hasFolder <http://hongkong/361>,
+                <http://hongkong/381>,
+                <http://hongkong/401>,
+                <http://hongkong/421>;
+         :hasGroundOverlay <http://hongkong/352>;
+         :hasRegion <http://hongkong/343>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_1" .
+    
+    <http://hongkong/343>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/343>;
+         :hasLod <http://hongkong/348>;
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/348>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/352>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/353>;
+         :hasLatLonBox <http://hongkong/355> .
+    
+    <http://hongkong/353>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_1.jpg" .
+    
+    <http://hongkong/355>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/36>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.76862324226043600";
+         :south "22.20009844226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/361>     a :Folder;
+         :hasGroundOverlay <http://hongkong/371>;
+         :hasRegion <http://hongkong/362>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_2" .
+    
+    <http://hongkong/362>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/362>;
+         :hasLod <http://hongkong/367>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/367>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/371>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/372>;
+         :hasLatLonBox <http://hongkong/374> .
+    
+    <http://hongkong/372>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_2.jpg" .
+    
+    <http://hongkong/374>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/381>     a :Folder;
+         :hasGroundOverlay <http://hongkong/391>;
+         :hasRegion <http://hongkong/382>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_3" .
+    
+    <http://hongkong/382>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/382>;
+         :hasLod <http://hongkong/387>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/387>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/391>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/392>;
+         :hasLatLonBox <http://hongkong/394> .
+    
+    <http://hongkong/392>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_3.jpg" .
+    
+    <http://hongkong/394>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/4>     a :Folder;
+         :hasFolder <http://hongkong/1283>,
+                <http://hongkong/23>,
+                <http://hongkong/443>,
+                <http://hongkong/863>;
+         :hasGroundOverlay <http://hongkong/14>;
+         :hasRegion <http://hongkong/5>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L1_0_0" .
+    
+    <http://hongkong/401>     a :Folder;
+         :hasGroundOverlay <http://hongkong/411>;
+         :hasRegion <http://hongkong/402>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_2" .
+    
+    <http://hongkong/402>     a :LatLonAltBox,
+                :Region;
+         :east "113.81470024815704000";
+         :hasLatLonAltBox <http://hongkong/402>;
+         :hasLod <http://hongkong/407>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/407>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/411>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/412>;
+         :hasLatLonBox <http://hongkong/414> .
+    
+    <http://hongkong/412>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_2.jpg" .
+    
+    <http://hongkong/414>     a :LatLonBox;
+         :east "113.81470024815704000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/42>     a :Folder;
+         :hasFolder <http://hongkong/101>,
+                <http://hongkong/121>,
+                <http://hongkong/61>,
+                <http://hongkong/81>;
+         :hasGroundOverlay <http://hongkong/52>;
+         :hasRegion <http://hongkong/43>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_0" .
+    
+    <http://hongkong/421>     a :Folder;
+         :hasGroundOverlay <http://hongkong/431>;
+         :hasRegion <http://hongkong/422>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_3" .
+    
+    <http://hongkong/422>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/422>;
+         :hasLod <http://hongkong/427>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/427>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/43>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/43>;
+         :hasLod <http://hongkong/48>;
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/431>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/432>;
+         :hasLatLonBox <http://hongkong/434> .
+    
+    <http://hongkong/432>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_3.jpg" .
+    
+    <http://hongkong/434>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.81470024815704000" .
+    
+    <http://hongkong/443>     a :Folder;
+         :hasFolder <http://hongkong/462>,
+                <http://hongkong/562>,
+                <http://hongkong/662>,
+                <http://hongkong/762>;
+         :hasGroundOverlay <http://hongkong/453>;
+         :hasRegion <http://hongkong/444>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_1" .
+    
+    <http://hongkong/444>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/444>;
+         :hasLod <http://hongkong/449>;
+         :north "22.76862324226043600";
+         :south "22.20009844226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/449>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "446" .
+    
+    <http://hongkong/453>     a :GroundOverlay;
+         :drawOrder "2";
+         :hasIcon <http://hongkong/454>;
+         :hasLatLonBox <http://hongkong/456> .
+    
+    <http://hongkong/454>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_0_1.jpg" .
+    
+    <http://hongkong/456>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.76862324226043600";
+         :south "22.20009844226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/462>     a :Folder;
+         :hasFolder <http://hongkong/481>,
+                <http://hongkong/501>,
+                <http://hongkong/521>,
+                <http://hongkong/541>;
+         :hasGroundOverlay <http://hongkong/472>;
+         :hasRegion <http://hongkong/463>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_2" .
+    
+    <http://hongkong/463>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/463>;
+         :hasLod <http://hongkong/468>;
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/468>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/472>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/473>;
+         :hasLatLonBox <http://hongkong/475> .
+    
+    <http://hongkong/473>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_2.jpg" .
+    
+    <http://hongkong/475>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/48>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/481>     a :Folder;
+         :hasGroundOverlay <http://hongkong/491>;
+         :hasRegion <http://hongkong/482>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_4" .
+    
+    <http://hongkong/482>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/482>;
+         :hasLod <http://hongkong/487>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/487>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/491>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/492>;
+         :hasLatLonBox <http://hongkong/494> .
+    
+    <http://hongkong/492>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_4.jpg" .
+    
+    <http://hongkong/494>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/5>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/5>;
+         :hasLod <http://hongkong/10>;
+         :north "22.76862324226043600";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/501>     a :Folder;
+         :hasGroundOverlay <http://hongkong/511>;
+         :hasRegion <http://hongkong/502>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_5" .
+    
+    <http://hongkong/502>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/502>;
+         :hasLod <http://hongkong/507>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/507>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/511>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/512>;
+         :hasLatLonBox <http://hongkong/514> .
+    
+    <http://hongkong/512>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_5.jpg" .
+    
+    <http://hongkong/514>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/52>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/53>;
+         :hasLatLonBox <http://hongkong/55> .
+    
+    <http://hongkong/521>     a :Folder;
+         :hasGroundOverlay <http://hongkong/531>;
+         :hasRegion <http://hongkong/522>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_4" .
+    
+    <http://hongkong/522>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/522>;
+         :hasLod <http://hongkong/527>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/527>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/53>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_0.jpg" .
+    
+    <http://hongkong/531>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/532>;
+         :hasLatLonBox <http://hongkong/534> .
+    
+    <http://hongkong/532>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_4.jpg" .
+    
+    <http://hongkong/534>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/541>     a :Folder;
+         :hasGroundOverlay <http://hongkong/551>;
+         :hasRegion <http://hongkong/542>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_5" .
+    
+    <http://hongkong/542>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/542>;
+         :hasLod <http://hongkong/547>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/547>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/55>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/551>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/552>;
+         :hasLatLonBox <http://hongkong/554> .
+    
+    <http://hongkong/552>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_5.jpg" .
+    
+    <http://hongkong/554>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/562>     a :Folder;
+         :hasFolder <http://hongkong/581>,
+                <http://hongkong/601>,
+                <http://hongkong/621>,
+                <http://hongkong/641>;
+         :hasGroundOverlay <http://hongkong/572>;
+         :hasRegion <http://hongkong/563>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_3" .
+    
+    <http://hongkong/563>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/563>;
+         :hasLod <http://hongkong/568>;
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/568>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "369" .
+    
+    <http://hongkong/572>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/573>;
+         :hasLatLonBox <http://hongkong/575> .
+    
+    <http://hongkong/573>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_0_3.jpg" .
+    
+    <http://hongkong/575>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.76862324226043600";
+         :south "22.48436084226043600";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/581>     a :Folder;
+         :hasGroundOverlay <http://hongkong/591>;
+         :hasRegion <http://hongkong/582>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_6" .
+    
+    <http://hongkong/582>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/582>;
+         :hasLod <http://hongkong/587>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/587>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/591>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/592>;
+         :hasLatLonBox <http://hongkong/594> .
+    
+    <http://hongkong/592>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_6.jpg" .
+    
+    <http://hongkong/594>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/601>     a :Folder;
+         :hasGroundOverlay <http://hongkong/611>;
+         :hasRegion <http://hongkong/602>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_7" .
+    
+    <http://hongkong/602>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/602>;
+         :hasLod <http://hongkong/607>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/607>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/61>     a :Folder;
+         :hasGroundOverlay <http://hongkong/71>;
+         :hasRegion <http://hongkong/62>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_0" .
+    
+    <http://hongkong/611>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/612>;
+         :hasLatLonBox <http://hongkong/614> .
+    
+    <http://hongkong/612>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_7.jpg" .
+    
+    <http://hongkong/614>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/62>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/62>;
+         :hasLod <http://hongkong/67>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/621>     a :Folder;
+         :hasGroundOverlay <http://hongkong/631>;
+         :hasRegion <http://hongkong/622>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_6" .
+    
+    <http://hongkong/622>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/622>;
+         :hasLod <http://hongkong/627>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/627>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/631>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/632>;
+         :hasLatLonBox <http://hongkong/634> .
+    
+    <http://hongkong/632>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_6.jpg" .
+    
+    <http://hongkong/634>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/641>     a :Folder;
+         :hasGroundOverlay <http://hongkong/651>;
+         :hasRegion <http://hongkong/642>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_7" .
+    
+    <http://hongkong/642>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/642>;
+         :hasLod <http://hongkong/647>;
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/647>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/651>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/652>;
+         :hasLatLonBox <http://hongkong/654> .
+    
+    <http://hongkong/652>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_1_7.jpg" .
+    
+    <http://hongkong/654>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.62649204226043400";
+         :south "22.48436084226043600";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/662>     a :Folder;
+         :hasFolder <http://hongkong/681>,
+                <http://hongkong/701>,
+                <http://hongkong/721>,
+                <http://hongkong/741>;
+         :hasGroundOverlay <http://hongkong/672>;
+         :hasRegion <http://hongkong/663>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_2" .
+    
+    <http://hongkong/663>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/663>;
+         :hasLod <http://hongkong/668>;
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/668>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/67>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/672>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/673>;
+         :hasLatLonBox <http://hongkong/675> .
+    
+    <http://hongkong/673>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_2.jpg" .
+    
+    <http://hongkong/675>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/681>     a :Folder;
+         :hasGroundOverlay <http://hongkong/691>;
+         :hasRegion <http://hongkong/682>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_4" .
+    
+    <http://hongkong/682>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/682>;
+         :hasLod <http://hongkong/687>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/687>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/691>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/692>;
+         :hasLatLonBox <http://hongkong/694> .
+    
+    <http://hongkong/692>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_4.jpg" .
+    
+    <http://hongkong/694>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/701>     a :Folder;
+         :hasGroundOverlay <http://hongkong/711>;
+         :hasRegion <http://hongkong/702>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_5" .
+    
+    <http://hongkong/702>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/702>;
+         :hasLod <http://hongkong/707>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/707>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/71>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/72>;
+         :hasLatLonBox <http://hongkong/74> .
+    
+    <http://hongkong/711>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/712>;
+         :hasLatLonBox <http://hongkong/714> .
+    
+    <http://hongkong/712>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_5.jpg" .
+    
+    <http://hongkong/714>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/72>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_0.jpg" .
+    
+    <http://hongkong/721>     a :Folder;
+         :hasGroundOverlay <http://hongkong/731>;
+         :hasRegion <http://hongkong/722>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_4" .
+    
+    <http://hongkong/722>     a :LatLonAltBox,
+                :Region;
+         :east "114.09896264815704000";
+         :hasLatLonAltBox <http://hongkong/722>;
+         :hasLod <http://hongkong/727>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/727>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/731>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/732>;
+         :hasLatLonBox <http://hongkong/734> .
+    
+    <http://hongkong/732>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_4.jpg" .
+    
+    <http://hongkong/734>     a :LatLonBox;
+         :east "114.09896264815704000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "113.95683144815705000" .
+    
+    <http://hongkong/74>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/741>     a :Folder;
+         :hasGroundOverlay <http://hongkong/751>;
+         :hasRegion <http://hongkong/742>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_5" .
+    
+    <http://hongkong/742>     a :LatLonAltBox,
+                :Region;
+         :east "114.24109384815704000";
+         :hasLatLonAltBox <http://hongkong/742>;
+         :hasLod <http://hongkong/747>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/747>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/751>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/752>;
+         :hasLatLonBox <http://hongkong/754> .
+    
+    <http://hongkong/752>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_5.jpg" .
+    
+    <http://hongkong/754>     a :LatLonBox;
+         :east "114.24109384815704000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "114.09896264815704000" .
+    
+    <http://hongkong/762>     a :Folder;
+         :hasFolder <http://hongkong/781>,
+                <http://hongkong/801>,
+                <http://hongkong/821>,
+                <http://hongkong/841>;
+         :hasGroundOverlay <http://hongkong/772>;
+         :hasRegion <http://hongkong/763>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_3" .
+    
+    <http://hongkong/763>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/763>;
+         :hasLod <http://hongkong/768>;
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/768>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "369" .
+    
+    <http://hongkong/772>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/773>;
+         :hasLatLonBox <http://hongkong/775> .
+    
+    <http://hongkong/773>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_1_3.jpg" .
+    
+    <http://hongkong/775>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.48436084226043600";
+         :south "22.20009844226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/781>     a :Folder;
+         :hasGroundOverlay <http://hongkong/791>;
+         :hasRegion <http://hongkong/782>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_6" .
+    
+    <http://hongkong/782>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/782>;
+         :hasLod <http://hongkong/787>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/787>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/791>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/792>;
+         :hasLatLonBox <http://hongkong/794> .
+    
+    <http://hongkong/792>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_6.jpg" .
+    
+    <http://hongkong/794>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/801>     a :Folder;
+         :hasGroundOverlay <http://hongkong/811>;
+         :hasRegion <http://hongkong/802>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_7" .
+    
+    <http://hongkong/802>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/802>;
+         :hasLod <http://hongkong/807>;
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/807>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/81>     a :Folder;
+         :hasGroundOverlay <http://hongkong/91>;
+         :hasRegion <http://hongkong/82>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_1" .
+    
+    <http://hongkong/811>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/812>;
+         :hasLatLonBox <http://hongkong/814> .
+    
+    <http://hongkong/812>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_2_7.jpg" .
+    
+    <http://hongkong/814>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.48436084226043600";
+         :south "22.34222964226043500";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/82>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/82>;
+         :hasLod <http://hongkong/87>;
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/821>     a :Folder;
+         :hasGroundOverlay <http://hongkong/831>;
+         :hasRegion <http://hongkong/822>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_6" .
+    
+    <http://hongkong/822>     a :LatLonAltBox,
+                :Region;
+         :east "114.38322504815704000";
+         :hasLatLonAltBox <http://hongkong/822>;
+         :hasLod <http://hongkong/827>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/827>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/831>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/832>;
+         :hasLatLonBox <http://hongkong/834> .
+    
+    <http://hongkong/832>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_6.jpg" .
+    
+    <http://hongkong/834>     a :LatLonBox;
+         :east "114.38322504815704000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "114.24109384815704000" .
+    
+    <http://hongkong/841>     a :Folder;
+         :hasGroundOverlay <http://hongkong/851>;
+         :hasRegion <http://hongkong/842>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_7" .
+    
+    <http://hongkong/842>     a :LatLonAltBox,
+                :Region;
+         :east "114.38836064815705000";
+         :hasLatLonAltBox <http://hongkong/842>;
+         :hasLod <http://hongkong/847>;
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/847>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "97" .
+    
+    <http://hongkong/851>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/852>;
+         :hasLatLonBox <http://hongkong/854> .
+    
+    <http://hongkong/852>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_7.jpg" .
+    
+    <http://hongkong/854>     a :LatLonBox;
+         :east "114.38836064815705000";
+         :north "22.34222964226043500";
+         :south "22.20009844226043700";
+         :west "114.38322504815704000" .
+    
+    <http://hongkong/863>     a :Folder;
+         :hasFolder <http://hongkong/1082>,
+                <http://hongkong/1182>,
+                <http://hongkong/882>,
+                <http://hongkong/982>;
+         :hasGroundOverlay <http://hongkong/873>;
+         :hasRegion <http://hongkong/864>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_0" .
+    
+    <http://hongkong/864>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/864>;
+         :hasLod <http://hongkong/869>;
+         :north "22.20009844226043700";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/869>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "446" .
+    
+    <http://hongkong/87>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/873>     a :GroundOverlay;
+         :drawOrder "2";
+         :hasIcon <http://hongkong/874>;
+         :hasLatLonBox <http://hongkong/876> .
+    
+    <http://hongkong/874>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L2_1_0.jpg" .
+    
+    <http://hongkong/876>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.20009844226043700";
+         :south "21.76856924226043700";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/882>     a :Folder;
+         :hasFolder <http://hongkong/901>,
+                <http://hongkong/921>,
+                <http://hongkong/941>,
+                <http://hongkong/961>;
+         :hasGroundOverlay <http://hongkong/892>;
+         :hasRegion <http://hongkong/883>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_0" .
+    
+    <http://hongkong/883>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/883>;
+         :hasLod <http://hongkong/888>;
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/888>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/892>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/893>;
+         :hasLatLonBox <http://hongkong/895> .
+    
+    <http://hongkong/893>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_0.jpg" .
+    
+    <http://hongkong/895>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/901>     a :Folder;
+         :hasGroundOverlay <http://hongkong/911>;
+         :hasRegion <http://hongkong/902>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_0" .
+    
+    <http://hongkong/902>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/902>;
+         :hasLod <http://hongkong/907>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/907>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/91>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/92>;
+         :hasLatLonBox <http://hongkong/94> .
+    
+    <http://hongkong/911>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/912>;
+         :hasLatLonBox <http://hongkong/914> .
+    
+    <http://hongkong/912>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_0.jpg" .
+    
+    <http://hongkong/914>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/92>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_0_1.jpg" .
+    
+    <http://hongkong/921>     a :Folder;
+         :hasGroundOverlay <http://hongkong/931>;
+         :hasRegion <http://hongkong/922>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_1" .
+    
+    <http://hongkong/922>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/922>;
+         :hasLod <http://hongkong/927>;
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/927>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/931>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/932>;
+         :hasLatLonBox <http://hongkong/934> .
+    
+    <http://hongkong/932>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_4_1.jpg" .
+    
+    <http://hongkong/934>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.20009844226043700";
+         :south "22.05796724226043500";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/94>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.76862324226043600";
+         :south "22.62649204226043400";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/941>     a :Folder;
+         :hasGroundOverlay <http://hongkong/951>;
+         :hasRegion <http://hongkong/942>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_0" .
+    
+    <http://hongkong/942>     a :LatLonAltBox,
+                :Region;
+         :east "113.53043784815704000";
+         :hasLatLonAltBox <http://hongkong/942>;
+         :hasLod <http://hongkong/947>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/947>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/951>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/952>;
+         :hasLatLonBox <http://hongkong/954> .
+    
+    <http://hongkong/952>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_0.jpg" .
+    
+    <http://hongkong/954>     a :LatLonBox;
+         :east "113.53043784815704000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.38830664815704000" .
+    
+    <http://hongkong/961>     a :Folder;
+         :hasGroundOverlay <http://hongkong/971>;
+         :hasRegion <http://hongkong/962>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_1" .
+    
+    <http://hongkong/962>     a :LatLonAltBox,
+                :Region;
+         :east "113.67256904815704000";
+         :hasLatLonAltBox <http://hongkong/962>;
+         :hasLod <http://hongkong/967>;
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/967>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/971>     a :GroundOverlay;
+         :drawOrder "4";
+         :hasIcon <http://hongkong/972>;
+         :hasLatLonBox <http://hongkong/974> .
+    
+    <http://hongkong/972>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L4_5_1.jpg" .
+    
+    <http://hongkong/974>     a :LatLonBox;
+         :east "113.67256904815704000";
+         :north "22.05796724226043500";
+         :south "21.91583604226043400";
+         :west "113.53043784815704000" .
+    
+    <http://hongkong/982>     a :Folder;
+         :hasFolder <http://hongkong/1001>,
+                <http://hongkong/1021>,
+                <http://hongkong/1041>,
+                <http://hongkong/1061>;
+         :hasGroundOverlay <http://hongkong/992>;
+         :hasRegion <http://hongkong/983>;
+         :name "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_1" .
+    
+    <http://hongkong/983>     a :LatLonAltBox,
+                :Region;
+         :east "113.95683144815705000";
+         :hasLatLonAltBox <http://hongkong/983>;
+         :hasLod <http://hongkong/988>;
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "113.67256904815704000" .
+    
+    <http://hongkong/988>     a :Lod;
+         :maxLodPixels "-1";
+         :minLodPixels "512" .
+    
+    <http://hongkong/992>     a :GroundOverlay;
+         :drawOrder "3";
+         :hasIcon <http://hongkong/993>;
+         :hasLatLonBox <http://hongkong/995> .
+    
+    <http://hongkong/993>     a :Icon;
+         :href "TerraColor_Hong_Kong_15m_1024_64_kmz_L3_2_1.jpg" .
+    
+    <http://hongkong/995>     a :LatLonBox;
+         :east "113.95683144815705000";
+         :north "22.20009844226043700";
+         :south "21.91583604226043400";
+         :west "113.67256904815704000" .
+    
+#ENDS
