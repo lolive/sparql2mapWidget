@@ -19,6 +19,21 @@
 <!----></script><script src="http://datao.zerezo.com/datao/myn3.js">
 <!----></script><script><![CDATA[
 myquery='CONSTRUCT { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .   } WHERE { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .  } ';
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+if(vars[key]){
+if(vars[key] instanceof Array){
+vars[key].push(value);
+}else{
+vars[key] = [vars[key], value];
+}
+}else{
+vars[key] = value;
+}
+});
+var latitude=vars['lat'];//"48.5112";
+var longitude=vars['long'];//"2.2055";
+]]></script><script><![CDATA[
 var myendpoint='http://penny.zerezo.com:9015/sparql/';
 ]]></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
