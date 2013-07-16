@@ -13,7 +13,8 @@
 -->
      </style> 
 
-<script src="http://datao.zerezo.com/datao/underscore.js">
+<script src="http://code.jquery.com/jquery-1.10.2.min.js">
+<!----></script><script src="http://datao.zerezo.com/datao/underscore.js">
 <!----></script><script src="../js/distal.js">
 <!----></script><script src="http://datao.zerezo.com/datao/n3.js">
 <!----></script><script src="http://datao.zerezo.com/datao/myn3.js">
@@ -44,7 +45,7 @@ var myendpoint='http://penny.zerezo.com:9015/sparql/';
 <body>
 
 <div style="display: none;">
-<kml class="layer" xmlns="http://www.opengis.net/kml/2.2" data-qrepeat="satelliteImage http://toto/#satelliteImage">
+<kml class="layer" xmlns="http://www.opengis.net/kml/2.2" data-qrepeat="satelliteImage http://toto/#satelliteImage" data-qattr="id satelliteImage|http://toto/#fileid ,#">
 
 <Document data-qrepeat="pathRow satelliteImage|http://toto/#pathRow">
 
@@ -83,8 +84,31 @@ TTerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</span></href>
 
 </kml>
 </div>
-<div id="map3d" style="height: 600px; width: 1000px;"></div>
+<div id="map3d" style="float:left; height: 600px; width: 70%;"></div>
+<div style="float:left; width: 25%; height: 600px; overflow: auto" >
+<ul>
+<li data-qrepeat="satelliteImage http://toto/#satelliteImage">
+<table>
+<tr>
+<td colspan="2">
+<a class="satelliteImage" href="#LXXXX" data-qattr="href satelliteImage|http://toto/#fileid ,#"><span data-qtext="satelliteImage|http://toto/#fileid">LXXXX</span></a>
+</td>
+</tr>
+<tr>
+<td>
+Sensor: <span data-qtext="html satelliteImage|http://toto/#sensor">l0</span>
+</td>
+<td>
+Date: <span data-qtext="html satelliteImage|http://toto/#when">01011900</span>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+</div>
+<!--div>
 <p>GoogleEarth: SUCCESS!!!!</p>
+</div-->
 </body>
 
 </html>
