@@ -361,6 +361,9 @@ distal.format = {
   ",.": function(v, i) {
     i = v*1;
     return isNaN(i) ? v : (i % 1 ? i.toFixed(2) : parseInt(i, 10) + "").replace(/(^\d{1,3}|\d{3})(?=(?:\d{3})+(?:$|\.))/g, "$1,");
+  },
+  ",#": function(v) {
+    return "#"+v;
   }
 };
 
