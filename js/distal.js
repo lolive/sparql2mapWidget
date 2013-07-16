@@ -309,6 +309,7 @@ function distal(root, obj) {
             case "selected": node[name] = !!value; break;
             case "text": node[querySelectorAll ? name : innerText] = value; break;  //option.text unstable in IE
             case "class": name = "className";
+            case "id": node.setAttribute(name, value);
             default: node[name] = value;
           }
         } else {
