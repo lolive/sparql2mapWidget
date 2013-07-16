@@ -309,6 +309,7 @@ function distal(root, obj) {
             case "selected": node[name] = !!value; break;
             case "text": node[querySelectorAll ? name : innerText] = value; break;  //option.text unstable in IE
             case "class": name = "className";
+            case "id": node.setAttribute(name, value);
             default: node[name] = value;
           }
         } else {
@@ -360,6 +361,9 @@ distal.format = {
   ",.": function(v, i) {
     i = v*1;
     return isNaN(i) ? v : (i % 1 ? i.toFixed(2) : parseInt(i, 10) + "").replace(/(^\d{1,3}|\d{3})(?=(?:\d{3})+(?:$|\.))/g, "$1,");
+  },
+  ",#": function(v) {
+    return "#"+v;
   }
 };
 
