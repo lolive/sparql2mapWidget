@@ -16,6 +16,7 @@ function(res){
  var kmlString=(new XMLSerializer()).serializeToString(document.getElementById('kml'));
  var kmlObject = ge.parseKml(kmlString);
  ge.getFeatures().appendChild(kmlObject);
+ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
  ge.getView().setAbstractView(kmlObject.getAbstractView());
 }
 );
