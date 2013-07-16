@@ -18,7 +18,23 @@
 <!----></script><script src="http://datao.zerezo.com/datao/n3.js">
 <!----></script><script src="http://datao.zerezo.com/datao/myn3.js">
 <!----></script><script><![CDATA[
-myquery='CONSTRUCT { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .   } WHERE { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north> ?North3 .  ?Icon0 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href> ?Href4 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west> ?West5 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south> ?South6 .  ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east> ?East7 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox> ?LatLonBox1 .  ?GroundOverlay2 <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon> ?Icon0  .   ?Icon0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#Icon> .  ?LatLonBox1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#LatLonBox> .  ?GroundOverlay2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay> .  } ';
+var vars = {};
+var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+if(vars[key]){
+if(vars[key] instanceof Array){
+vars[key].push(value);
+}else{
+vars[key] = [vars[key], value];
+}
+}else{
+vars[key] = value;
+}
+});
+var latitude=vars['lat'];//"48.5112";
+var longitude=vars['long'];//"2.2055";
+]]></script><script><![CDATA[
+var myquery='CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l5") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND ("4" as ?RightBoundary) }';
+var myendpoint='http://penny.zerezo.com:9015/sparql/';
 ]]></script>
 <script type="text/javascript" src="https://www.google.com/jsapi"></script>
 <script type="text/javascript" src="sparql2kml2googleEarth.js"/>
@@ -28,34 +44,34 @@ myquery='CONSTRUCT { ?LatLonBox1 <file:///home/lolive/RDF2KML/hongKong.kml.prett
 <body>
 
 <div style="display: none;">
-<kml id='kml' xmlns="http://www.opengis.net/kml/2.2">
+<kml class="layer" xmlns="http://www.opengis.net/kml/2.2" data-qrepeat="satelliteImage http://toto/#satelliteImage">
 
-<Document>
+<Document data-qrepeat="pathRow satelliteImage|http://toto/#pathRow">
 
-<Camera>    <longitude>113.395838</longitude>    <latitude>22.113852</latitude>    <altitude>339000</altitude>    <heading>0.0</heading>    <tilt>0</tilt>  </Camera>
+<Camera>    <longitude data-qtext="html pathRow|http://toto/#leftBoundary">113.395838</longitude>    <latitude data-qtext="html pathRow|http://toto/#topBoundary">22.113852</latitude>    <altitude>630000</altitude>    <heading>0.0</heading>    <tilt>0</tilt>  </Camera>
 
   
-<GroundOverlay data-qrepeat="GroundOverlay file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#GroundOverlay">
+<GroundOverlay>
    
-<Icon data-qrepeat="Icon GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasIcon">
+<Icon>
     
-<href>http://localhost/sparql2mapWidget/sampleData/hongKong/imgs/<span data-qtext="replace Icon|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#href">
+<href>http://earthexplorer.usgs.gov//browse/full/tm/<span data-qtext="replace satelliteImage|http://toto/#fileid">
 TTerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</span></href>
    
 </Icon>
    
-<LatLonBox data-qrepeat="LatLonBox GroundOverlay|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#hasLatLonBox">
+<LatLonBox>
     
-<north data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#north">
+<north data-qtext="html pathRow|http://toto/#topBoundary">
 22.34222964226043500</north>
     
-<south data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#south">
+<south data-qtext="html pathRow|http://toto/#bottomBoundary">
 22.20009844226043700</south>
     
-<east data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#east">
+<east data-qtext="html pathRow|http://toto/#rightBoundary">
 113.67256904815704000</east>
     
-<west  data-qtext="html LatLonBox|file:///home/lolive/RDF2KML/hongKong.kml.pretty.n3#west">
+<west  data-qtext="html pathRow|http://toto/#leftBoundary">
 113.53043784815704000</west>
    
 </LatLonBox>
@@ -67,7 +83,7 @@ TTerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</span></href>
 
 </kml>
 </div>
-<div id="map3d" style="height: 400px; width: 600px;"></div>
+<div id="map3d" style="height: 600px; width: 1000px;"></div>
 <p>GoogleEarth: SUCCESS!!!!</p>
 </body>
 
