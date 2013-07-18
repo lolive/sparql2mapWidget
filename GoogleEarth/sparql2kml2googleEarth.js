@@ -10,6 +10,11 @@ var ge;
       ge = instance;
       ge.getWindow().setVisibility(true);
       ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
+
+
+$('longitude').text(longitude);
+$('latitude').text(latitude);
+
 sparqlQueryJson(
 myquery,
 myendpoint,
