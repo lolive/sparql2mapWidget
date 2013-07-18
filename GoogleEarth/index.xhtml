@@ -20,7 +20,8 @@
 <!----></script><script src="http://datao.zerezo.com/datao/myn3.js">
 <!----></script><script><![CDATA[
 var vars = {};
-var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+var params = window.location.href;
+var parts = params.replace(/[?&]+([^=&#]+)=([^&#]*)/gi, function(m,key,value) {
 if(vars[key]){
 if(vars[key] instanceof Array){
 vars[key].push(value);
