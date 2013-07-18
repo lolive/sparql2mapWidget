@@ -14,6 +14,9 @@ var ge;
 
 $('longitude').text(longitude);
 $('latitude').text(latitude);
+$('coordinates').text(longitude+','+latitude+',0');
+if(name)
+$('name').text(name);
 
 sparqlQueryJson(
 myquery,
