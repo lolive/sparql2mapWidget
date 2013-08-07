@@ -11,3 +11,6 @@ GRUNT TASKS
 To build templates in root directory, go to work/ and type:
 
 ```grunt jade
+```grunt sass
+
+
