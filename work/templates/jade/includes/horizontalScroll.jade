@@ -1,0 +1,11 @@
+script(src='js/jquery-mousewheel/jquery.mousewheel.js')
+script.
+  $('document').ready(function(){
+   $('#ribbon').mousewheel(
+    function(ev,delta)
+    {
+     this.scrollLeft -= (delta * 30);
+     event.preventDefault()
+    });
+   });
+
