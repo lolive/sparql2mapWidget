@@ -1,37 +1,41 @@
 script(src='js/purl.js')
 script.
 
- var convertIntoImgTag = function(photo){
-  var src='<img class="inRibbon" src="'+photo.url_sq+'"/>';
-  return src;
- };
-
- var jsonFlickrApi = function(x){return x;};
- var allPhotos = function(inputText){
-   var json = eval(inputText);
-   return json.photos.photo; 
- };
-
- var injectInARibbon = function(ribbon){
-   return function(imgTag){
-    ribbon.append(imgTag);
-  }
- };
-
- var theFlickrUrl = function(left, right, top, bottom){
-  var url='http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+right+','+top+','+bottom; 
- return url;
- }
-
- $(document).ready(
-  function() {
-   var myRibbon = $('#ribbon');
-   var injectInMyRibbon = injectInARibbon(myRibbon);
-
-   var left= $.url().param("left"), right= $.url().param("right"), top=$.url().param("top"), bottom=$.url().param("bottom");
-   var restUrl = theFlickrUrl(left,right,top,bottom);
-   $.ajax(restUrl).complete(
+  var convertIntoImgTag = function(photos){
+    var defer = $.Deferred();
+    var imgs = photos.map(function(photo){return '<img class="inRibbon" src="'+photo.url_sq+'"/>'}); 
+    defer.resolve(imgs);
+    return defer;
+  };
+ 
+  var injectInElement = function(element){
+    return function(newTags){
+     var defer = $.Deferred();
+     var tags = [];
+     newTags.forEach(function(newTagText){var newTag = $(newTagText);tags.push(newTag);element.append(newTag)});
+     defer.resolve(tags);
+     return defer;
+   }
+  };
+ 
+  var findFlickrPhotos = function(left,right,top,bottom){
+   var askFlickrWithBoundaries = 'http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+right+','+top+','+bottom; 
+ 
+   var jsonFlickrApi = function(x){return x;};
+   var allPhotos = function(inputText){
+    var json = eval(inputText);
+    return json.photos.photo; 
+   };
+ 
+   var defer = $.Deferred();
+ 
+   $.ajax(askFlickrWithBoundaries).complete(
     function(xhr){
-     allPhotos(xhr.responseText).map(convertIntoImgTag).forEach(injectInMyRibbon);
+     defer.resolve(allPhotos(xhr.responseText));
     });
-  });
+   return defer;
+  }
+ 
+  var value = function(parameter) { 
+   return $.url().param(parameter)
+  };

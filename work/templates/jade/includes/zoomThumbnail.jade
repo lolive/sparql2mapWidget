@@ -1,5 +1,11 @@
 script(src='js/jquery.hoverpulse.js')
 script.
-  $(window).load(function() {
-     $('#ribbon img').hoverpulse({size: 10} );
-  });
+
+  var zoomableElements = function(options){
+   return function(elements) { 
+    elements.forEach( function(element){
+      element.hoverpulse(options);
+   }
+  );}}
+  
+  var oversize = zoomableElements({size: 10});
