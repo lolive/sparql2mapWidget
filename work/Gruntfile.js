@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
    watch: {
     jade: {
-     files: 'templates/jade/*.jade',
+     files: ['templates/jade/*.jade', 'templates/jade/includes/*.jade'],
      tasks: ['jade']
     },
     sass: {
