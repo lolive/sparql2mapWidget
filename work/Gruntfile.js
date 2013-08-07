@@ -18,13 +18,16 @@ module.exports = function(grunt) {
    },
 
    watch: {
+    options: {
+     livereload: true
+    },
     jade: {
      files: ['templates/jade/*.jade', 'templates/jade/includes/*.jade'],
-     tasks: ['jade']
+     tasks: ['jade'],
     },
     sass: {
      files: 'templates/scss/*scss',
-     tasks: ['sass']
+     tasks: ['sass'],
     }
    }
 
