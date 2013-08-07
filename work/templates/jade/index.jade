@@ -3,10 +3,9 @@ html
   //meta(http-equiv="refresh",content="2;url=http://localhost/sparql2mapWidget/flickrRibbon/index.html")
   link(rel='stylesheet', href='css/my.css')
   script(src='http://code.jquery.com/jquery-2.0.3.min.js')
+  include includes/injectImgsWithJQuery
   include includes/horizontalScroll
   include includes/zoomThumbnail
   script(src='http://localhost:35729/livereload.js')
  body
   div#ribbon.ribbon()
-   - for (var i = 0; i < 100; ++i)
-    img.inRibbon(src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg")
