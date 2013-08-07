@@ -15,11 +15,23 @@ module.exports = function(grunt) {
       '../css/my.css': 'templates/scss/my.scss'
      }
     }
+   },
+
+   watch: {
+    jade: {
+     files: 'templates/jade/*.jade',
+     tasks: ['jade']
+    },
+    sass: {
+     files: 'templates/scss/*scss',
+     tasks: ['sass']
+    }
    }
 
   }); 
 
   grunt.loadNpmTasks('grunt-jade');
   grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
 
 }
