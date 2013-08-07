@@ -1,0 +1,30 @@
+
+<html>
+  <head>
+    <meta http-equiv="refresh" content="2;url=http://localhost/sparql2mapWidget/flickrRibbon/index.html"/>
+    <link rel="stylesheet" href="my.css"/>
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="js/jquery-mousewheel/jquery.mousewheel.js"></script>
+    <script>
+      $('document').ready(function(){
+       $('#ribbon').mousewheel(
+        function(ev,delta)
+        {
+         this.scrollLeft -= (delta * 30);
+         event.preventDefault()
+        });
+       });
+       
+    </script>
+    <script src="http://www.malsup.com/jquery/hoverpulse/jquery.hoverpulse.js"></script>
+    <script>
+      $(document).ready(function() {
+         $('#ribbon im').hoverpulse();
+      });
+    </script>
+  </head>
+  <body>
+    <div id="ribbon" class="ribbon"><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/><img src="http://farm3.staticflickr.com/2821/9443556302_341621e5d3_s.jpg" class="inRibbon"/>
+    </div>
+  </body>
+</html>
