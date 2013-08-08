@@ -1,0 +1,22 @@
+script.
+  var appendToJson = function(json){
+   return function(unusedVar, key, value){
+    if(json[key]){
+     if(json[key] instanceof Array){
+      json[key].push(value);
+     }else{
+      json[key] = [json[key], value];
+     }
+    }else{
+     json[key] = value;
+    }
+   }
+  }
+  
+  var vars = {};
+  var appendToVars = appendToJson(vars);
+
+  window.location.href.replace(/[?&]+([^=&#]+)=([^&#]*)/gi, appendToVars);
+  var latitude=vars['lat'];//"48.5112";
+  var longitude=vars['long'];//"2.2055";
+  var name=decodeURIComponent(vars['name']);

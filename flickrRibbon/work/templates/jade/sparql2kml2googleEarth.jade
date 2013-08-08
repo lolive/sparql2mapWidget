@@ -1,0 +1,27 @@
+!!! true
+html
+ head
+  meta(http-equiv='Content-Type', content='text/xml; charset=ISO-8859-1')
+  style
+  script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+  script(src='http://datao.zerezo.com/datao/underscore.js')
+  script(src='../js/distal.js')
+  script(src='http://datao.zerezo.com/datao/n3.js')
+  script(src='http://datao.zerezo.com/datao/myn3.js')
+  script(type='text/javascript', src='https://www.google.com/jsapi')
+
+  include includes/launchGoogleEarth
+
+  body
+    div(style='display: none;')
+     include includes/landsatKml
+
+    #map3d(style='float:left; height: 600px; width: 70%;')
+
+    div(style='float:left; width: 25%; height: 600px; overflow: auto')
+     include includes/landsatImagesList
+
+   include includes/extractLongLatParameters
+   include includes/injectCoordinatesInLandsatKml
+   include includes/landsatQueryDetails
+   include includes/queryLandsatEndpoint
