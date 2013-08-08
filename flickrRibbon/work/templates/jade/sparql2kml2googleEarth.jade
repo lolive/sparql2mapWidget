@@ -1,0 +1,64 @@
+!!! true
+html(xmlns='http://www.w3.org/1999/xhtml')
+  // classGraphUri="insert classGraphURI here (optional)"
+  head
+    meta(http-equiv='Content-Type', content='text/xml; charset=ISO-8859-1')
+    style
+    script(src='http://code.jquery.com/jquery-1.10.2.min.js')
+    script(src='http://datao.zerezo.com/datao/underscore.js')
+    script(src='../js/distal.js')
+    script(src='http://datao.zerezo.com/datao/n3.js')
+    script(src='http://datao.zerezo.com/datao/myn3.js')
+    script
+    script
+    script(type='text/javascript', src='https://www.google.com/jsapi')
+    script(type='text/javascript', src='sparql2kml2googleEarth.js')
+  body
+    div(style='display: none;')
+      kml.layer(xmlns='http://www.opengis.net/kml/2.2', data-qrepeat='satelliteImage http://toto/#satelliteImage', data-qattr='id satelliteImage|http://toto/#fileid ,#')
+        document(data-qrepeat='pathRow satelliteImage|http://toto/#pathRow')
+          camera
+            longitude(ddata-qtext='html pathRow|http://toto/#leftBoundary') 113.395838
+            latitude(ddata-qtext='html pathRow|http://toto/#topBoundary') 22.113852
+            altitude 630000
+            heading 0.0
+            tilt 0
+          groundoverlay
+            icon
+              href
+                | http://earthexplorer.usgs.gov//browse/full/tm/
+                span(data-qtext='replace satelliteImage|http://toto/#fileid')
+                  | TTerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg
+            latlonbox
+              north(data-qtext='html pathRow|http://toto/#topBoundary')
+                | 22.34222964226043500
+              south(data-qtext='html pathRow|http://toto/#bottomBoundary')
+                | 22.20009844226043700
+              east(data-qtext='html pathRow|http://toto/#rightBoundary')
+                | 113.67256904815704000
+              west(data-qtext='html pathRow|http://toto/#leftBoundary')
+                | 113.53043784815704000
+          placemark
+            name Simple placemark
+            point
+              coordinates -122.0822035425683,37.42228990140251,0
+    #map3d(style='float:left; height: 600px; width: 70%;')
+    div(style='float:left; width: 25%; height: 600px; overflow: auto')
+      ul
+        li(data-qrepeat='satelliteImage http://toto/#satelliteImage')
+          table
+            tr
+              td(colspan='2')
+                a.satelliteImage(href='#LXXXX', data-qattr='href satelliteImage|http://toto/#fileid ,#')
+                  span(data-qtext='satelliteImage|http://toto/#fileid') LXXXX
+            tr
+              td
+                | Sensor:
+                span(data-qtext='html satelliteImage|http://toto/#sensor') l0
+              td
+                | Date:
+                span(data-qtext='html satelliteImage|http://toto/#when') 01011900
+    //
+      div>
+      <p>GoogleEarth: SUCCESS!!!!</p>
+      </div
