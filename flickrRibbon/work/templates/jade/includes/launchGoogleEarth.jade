@@ -1,0 +1,13 @@
+script.
+ var ge;
+ google.load("earth", "1", { callback: function(){} });
+ function init() {
+  google.earth.createInstance('map3d', initCB, failureCB);
+ }
+ google.setOnLoadCallback(init);
+ function failureCB(errorCode) {};
+ function initCB(instance) {
+  ge = instance;
+  ge.getWindow().setVisibility(true);
+  ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
+ }
