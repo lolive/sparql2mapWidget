@@ -1,0 +1,11 @@
+script(src='js/jquery.hoverpulse.js')
+script.
+
+  var zoomableElements = function(options){
+   return function(elements) { 
+    elements.forEach( function(element){
+      element.hoverpulse(options);
+   }
+  );}}
+  
+  var oversize = zoomableElements({size: 10});

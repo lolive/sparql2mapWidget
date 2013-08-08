@@ -1,0 +1,10 @@
+.ribbon {
+  max-height: 140px;
+  max-width: 70%;
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden; }
+
+.inRibbon {
+  padding: 20px;
+  display: inline-block; }
