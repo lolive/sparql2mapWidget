@@ -19,6 +19,7 @@ Clicking an item will make the photo to appear in the GoogleEarth frame of the p
 
 On the server-side, you just deploy the sparql2kml2googleEarth.html, the css/ and js/ directories
 on any webserver.
+Note: you need to update the URL of the SiTools in info.html (or update template work/templates/jade/info.jade and regenerate, cf work/README.md)
 
 ## CLIENT-SIDE
 
