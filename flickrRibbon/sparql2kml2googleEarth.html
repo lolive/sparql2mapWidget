@@ -1,0 +1,170 @@
+<!DOCTYPE true>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/xml; charset=ISO-8859-1"/>
+    <style></style>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="http://datao.zerezo.com/datao/underscore.js"></script>
+    <script src="../js/distal.js"></script>
+    <script src="http://datao.zerezo.com/datao/n3.js"></script>
+    <script src="http://datao.zerezo.com/datao/myn3.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script>
+      var ge;
+      google.load("earth", "1", { callback: function(){} });
+      function init() {
+       google.earth.createInstance('map3d', initCB, failureCB);
+      }
+      google.setOnLoadCallback(init);
+      function failureCB(errorCode) {};
+      function initCB(instance) {
+       ge = instance;
+       ge.getWindow().setVisibility(true);
+       ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
+      }
+    </script>
+    <body>
+      <div style="display: none;">
+        <kml xmlns="http://www.opengis.net/kml/2.2" data-qrepeat="satelliteImage http://toto/#satelliteImage" data-qattr="id satelliteImage|http://toto/#fileid ,#" class="layer">
+          <Document data-qrepeat="pathRow satelliteImage|http://toto/#pathRow">
+            <Camera>
+              <longitude ddata-qtext="html pathRow|http://toto/#leftBoundary">113.395838</longitude>
+              <latitude ddata-qtext="html pathRow|http://toto/#topBoundary">22.113852</latitude>
+              <altitude>630000</altitude>
+              <heading>0.0</heading>
+              <tilt>0</tilt>
+            </Camera>
+            <Groundoverlay>
+              <Icon>
+                <href>http://earthexplorer.usgs.gov//browse/full/tm/<span data-qtext="replace satelliteImage|http://toto/#fileid">TTerraColor_Hong_Kong_15m_1024_64_kmz_L4_3_1.jpg</span></href>
+              </Icon>
+              <Latlonbox>
+                <north data-qtext="html pathRow|http://toto/#topBoundary"></north>22.34222964226043500
+                <south data-qtext="html pathRow|http://toto/#bottomBoundary"></south>22.20009844226043700
+                <east data-qtext="html pathRow|http://toto/#rightBoundary"></east>113.67256904815704000
+                <west data-qtext="html pathRow|http://toto/#leftBoundary"></west>113.53043784815704000
+              </Latlonbox>
+            </Groundoverlay>
+            <Placemark>
+              <name>Simple placemark</name>
+              <Point>
+                <coordinates>-122.0822035425683,37.42228990140251,0</coordinates>
+              </Point>
+            </Placemark>
+          </Document>
+        </kml>
+      </div>
+      <div id="map3d" style="float:left; height: 600px; width: 70%;"></div>
+      <div style="float:left; width: 25%; height: 600px; overflow: auto">
+        <ul>
+          <li data-qrepeat="satelliteImage http://toto/#satelliteImage">
+            <table>
+              <tr>
+                <td colspan="2"><a href="#LXXXX" data-qattr="href satelliteImage|http://toto/#fileid ,#" class="satelliteImage"><span data-qtext="satelliteImage|http://toto/#fileid">LXXXX</span></a></td>
+              </tr>
+              <tr>
+                <td>Sensor:<span data-qtext="html satelliteImage|http://toto/#sensor">l0</span></td>
+                <td>Date:<span data-qtext="html satelliteImage|http://toto/#when">1011899</span></td>
+              </tr>
+            </table>
+          </li>
+        </ul>
+      </div>
+    </body>
+    <script>
+      var appendToJson = function(json){
+       return function(unusedVar, key, value){
+        if(json[key]){
+         if(json[key] instanceof Array){
+          json[key].push(value);
+         }else{
+          json[key] = [json[key], value];
+         }
+        }else{
+         json[key] = value;
+        }
+       }
+      }
+      
+      var vars = {};
+      var appendToVars = appendToJson(vars);
+      
+      window.location.href.replace(/[?&]+([^=&#]+)=([^&#]*)/gi, appendToVars);
+      var latitude=vars['lat'];//"48.5112";
+      var longitude=vars['long'];//"2.2055";
+      var name=decodeURIComponent(vars['name']);
+    </script>
+    <script>
+      $('longitude').text(longitude);
+      $('latitude').text(latitude);
+      $('coordinates').text(longitude+','+latitude+',0');
+      if(name)
+       $('name').text(name);
+    </script>
+    <script>
+      var myquery='CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#when> ?when10 . ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { GRAPH <http://toto/#> { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#when> ?when10 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l5") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND (str(?RightBoundary5) as ?RightBoundary) } }';
+      var myendpoint='http://sitools.akka.eu:8889/sparql/';
+    </script>
+    <script>
+      var kmlLayer;
+      var extractKmlString = function(kmlId){
+       var defer = $.Deferred();
+       var kmlString=(new XMLSerializer()).serializeToString(document.getElementById(kmlId));
+       defer.resolve(kmlString);
+       return defer;
+      }
+      
+      var uppercaseElements = function(string, elementNames){
+        var uppercasedString = string;
+        elementNames.forEach( function(elementName) {
+         uppercasedString=uppercasedString.replace(new RegExp(elementName.toLowerCase(), 'g'), elementName);
+        });
+        return uppercasedString;
+      }
+      
+      var uppercaseKmlElements = function(kmlString){
+       var defer = $.Deferred();
+       var elementnames = [ 'Point', 'GroundOverlay', 'Document', 'LatLonBox', 'Camera', 'Icon', 'Placemark' ];
+       var validKmlString = uppercaseElements(kmlString, elementnames);
+       defer.resolve(validKmlString);
+       return defer;
+      }
+      
+      var sendToGE = function(kmlString){
+       var defer = $.Deferred();
+       if(ge) {
+        var kmlObject = ge.parseKml(kmlString);
+        ge.getFeatures().appendChild(kmlObject);
+        ge.getView().setAbstractView(kmlObject.getAbstractView());
+        defer.resolve(kmlObject);
+        return defer;
+       }
+      }
+      
+      var removeOlderKml = function(actualKmlObject){
+       var defer = $.Deferred();
+       if(kmlLayer)
+        ge.getFeatures().removeChild(kmlLayer);
+       defer.resolve(actualKmlObject);
+       return defer;
+      }
+      
+      var setAsCurrentKml = function(actualKmlObject){
+         kmlLayer = actualKmlObject;
+      }
+      
+      
+      sparqlQueryJson(
+       myquery,
+       myendpoint,
+       function(res){
+        parseN3(res);
+        $('.satelliteImage').click(function() {
+         var kmlId=this.attributes.href.value;
+         extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+        });
+       }
+      );
+    </script>
+  </head>
+</html>
