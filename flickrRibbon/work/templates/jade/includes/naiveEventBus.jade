@@ -1,0 +1,23 @@
+script.
+ (function() {
+ var subscriptions = null;
+ window.Bus = {
+ reset: function() {
+ subscriptions = {};
+ },
+ subscribe: function(messageType, callback) {
+ if (typeof subscriptions[messageType] === 'undefined') {
+ subscriptions[messageType] = [];
+ }
+ subscriptions[messageType].push(callback);
+ },
+ publish: function(messageType, args) {
+ if (typeof subscriptions[messageType] === 'undefined') return;
+ var subscribers = subscriptions[messageType];
+ for (var i=0; i<subscribers.length; i++) {
+ subscribers[i](args);
+ }
+ }
+ };
+ window.Bus.reset();
+ }());

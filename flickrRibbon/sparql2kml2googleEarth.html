@@ -11,6 +11,30 @@
     <script src="http://datao.zerezo.com/datao/myn3.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script>
+      (function() {
+      var subscriptions = null;
+      window.Bus = {
+      reset: function() {
+      subscriptions = {};
+      },
+      subscribe: function(messageType, callback) {
+      if (typeof subscriptions[messageType] === 'undefined') {
+      subscriptions[messageType] = [];
+      }
+      subscriptions[messageType].push(callback);
+      },
+      publish: function(messageType, args) {
+      if (typeof subscriptions[messageType] === 'undefined') return;
+      var subscribers = subscriptions[messageType];
+      for (var i=0; i<subscribers.length; i++) {
+      subscribers[i](args);
+      }
+      }
+      };
+      window.Bus.reset();
+      }());
+    </script>
+    <script>
       var ge;
       google.load("earth", "1", { callback: function(){} });
       function init() {
@@ -73,6 +97,16 @@
       </div>
     </body>
     <script>
+      window.Bus.subscribe('LongLatCalculated', function(longLat){
+       $('longitude').text(longLat.long);
+       $('latitude').text(longLat.lat);
+       $('coordinates').text(longLat.long+','+longLat.lat+',0');
+      });
+      window.Bus.subscribe('LongLatCalculated', function(name){
+        $('name').text(name);
+      });
+    </script>
+    <script>
       var appendToJson = function(json){
        return function(unusedVar, key, value){
         if(json[key]){
@@ -94,13 +128,8 @@
       var latitude=vars['lat'];//"48.5112";
       var longitude=vars['long'];//"2.2055";
       var name=decodeURIComponent(vars['name']);
-    </script>
-    <script>
-      $('longitude').text(longitude);
-      $('latitude').text(latitude);
-      $('coordinates').text(longitude+','+latitude+',0');
-      if(name)
-       $('name').text(name);
+      window.Bus.publish('LongLatCalculated', {"long": longitude, "lat": latitude});
+      window.Bus.publish('NameCalculated', name);
     </script>
     <script>
       var myquery='CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#when> ?when10 . ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { GRAPH <http://toto/#> { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#when> ?when10 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l5") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND (str(?RightBoundary5) as ?RightBoundary) } }';
@@ -163,9 +192,16 @@
         $('.satelliteImage').click(function() {
          var kmlId=this.attributes.href.value;
          extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+         var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
+         window.Bus.publish('BordersCalculated', 
+          { "left":$("west", latlonbox).text(),
+           "right":$("east", latlonbox).text(),
+           "top":$("north", latlonbox).text(),
+           "bottom":$("south", latlonbox).text() }
+         );
         });
        }
-      );
+      )
     </script>
     <div id="ribbon" class="ribbon"></div>
     <script src="js/purl.js"></script>
@@ -188,7 +224,7 @@
       };
       
       var findFlickrPhotos = function(left,right,top,bottom){
-       var askFlickrWithBoundaries = 'http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+right+','+top+','+bottom; 
+       var askFlickrWithBoundaries = 'http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+bottom+','+right+','+top; 
        
        var jsonFlickrApi = function(x){return x;};
        var allPhotos = function(inputText){
@@ -208,6 +244,13 @@
       var value = function(parameter) { 
        return $.url().param(parameter)
       };
+      
+      window.Bus.subscribe('BordersCalculated', function(leftRightTopBottom){
+         var left= leftRightTopBottom.left, right= leftRightTopBottom.right, top=leftRightTopBottom.top, bottom=leftRightTopBottom.bottom;
+         var ribbon = $('#ribbon');
+         horizontalScroll(ribbon); 
+         findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
+      });
     </script>
     <script src="js/jquery.mousewheel.js"></script>
     <script>
@@ -231,15 +274,13 @@
       
       var oversize = zoomableElements({size: 10});
     </script>
-    <script>
-      $(window).load(function() {
-       //var left= value("left"), right= value("right"), top=value("top"), bottom=value("bottom");
-       var left= 3, right= 4, top=40, bottom=30;
-       var ribbon = $('#ribbon');
-       horizontalScroll(ribbon); 
-       findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
-      })
-    </script>
-    <script src="http://localhost:35729/livereload.js"></script>
   </head>
 </html>
+<!--   script.-->
+<!--    $(window).load(function() {-->
+<!--     //var left= value("left"), right= value("right"), top=value("top"), bottom=value("bottom");-->
+<!--     var left= 3, right= 4, top=40, bottom=30;-->
+<!--     var ribbon = $('#ribbon');-->
+<!--     horizontalScroll(ribbon); -->
+<!--     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);--><!--    })
+<script src="http://localhost:35729/livereload.js"></script>-->

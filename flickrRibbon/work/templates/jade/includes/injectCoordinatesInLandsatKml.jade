@@ -1,6 +1,9 @@
 script.
- $('longitude').text(longitude);
- $('latitude').text(latitude);
- $('coordinates').text(longitude+','+latitude+',0');
- if(name)
-  $('name').text(name);
+ window.Bus.subscribe('LongLatCalculated', function(longLat){
+  $('longitude').text(longLat.long);
+  $('latitude').text(longLat.lat);
+  $('coordinates').text(longLat.long+','+longLat.lat+',0');
+ });
+ window.Bus.subscribe('LongLatCalculated', function(name){
+   $('name').text(name);
+ });

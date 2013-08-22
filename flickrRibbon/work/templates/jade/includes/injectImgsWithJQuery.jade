@@ -19,7 +19,7 @@ script.
   };
  
   var findFlickrPhotos = function(left,right,top,bottom){
-   var askFlickrWithBoundaries = 'http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+right+','+top+','+bottom; 
+   var askFlickrWithBoundaries = 'http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+bottom+','+right+','+top; 
  
    var jsonFlickrApi = function(x){return x;};
    var allPhotos = function(inputText){
@@ -39,3 +39,10 @@ script.
   var value = function(parameter) { 
    return $.url().param(parameter)
   };
+
+  window.Bus.subscribe('BordersCalculated', function(leftRightTopBottom){
+     var left= leftRightTopBottom.left, right= leftRightTopBottom.right, top=leftRightTopBottom.top, bottom=leftRightTopBottom.bottom;
+     var ribbon = $('#ribbon');
+     horizontalScroll(ribbon); 
+     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
+  });
