@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-Type" content="text/xml; charset=ISO-8859-1"/>
+    <link rel="stylesheet" href="css/my.css"/>
     <style></style>
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://datao.zerezo.com/datao/underscore.js"></script>
@@ -54,8 +55,8 @@
           </Document>
         </kml>
       </div>
-      <div id="map3d" style="float:left; height: 600px; width: 70%;"></div>
-      <div style="float:left; width: 25%; height: 600px; overflow: auto">
+      <div id="map3d" style="float:left; height: 500px; width: 70%;"></div>
+      <div style="float:left; width: 25%; height: 500px; overflow: auto">
         <ul>
           <li data-qrepeat="satelliteImage http://toto/#satelliteImage">
             <table>
@@ -166,5 +167,79 @@
        }
       );
     </script>
+    <div id="ribbon" class="ribbon"></div>
+    <script src="js/purl.js"></script>
+    <script>
+      var convertIntoImgTag = function(photos){
+        var defer = $.Deferred();
+        var imgs = photos.map(function(photo){return '<img class="inRibbon" src="'+photo.url_sq+'"/>'}); 
+        defer.resolve(imgs);
+        return defer;
+      };
+      
+      var injectInElement = function(element){
+        return function(newTags){
+         var defer = $.Deferred();
+         var tags = [];
+         newTags.forEach(function(newTagText){var newTag = $(newTagText);tags.push(newTag);element.append(newTag)});
+         defer.resolve(tags);
+         return defer;
+      }
+      };
+      
+      var findFlickrPhotos = function(left,right,top,bottom){
+       var askFlickrWithBoundaries = 'http://www.flickr.com/services/rest/?method=flickr.photos.search&api_key=921048f2d4f5b8973b78d7820271b25f&format=json&extras=owner_name,geo,media,url_sq,url_t,url_s,url_q,url_m,url_n,url_z,url_c,url_l,url_o&bbox='+left+','+right+','+top+','+bottom; 
+       
+       var jsonFlickrApi = function(x){return x;};
+       var allPhotos = function(inputText){
+        var json = eval(inputText);
+        return json.photos.photo; 
+       };
+       
+       var defer = $.Deferred();
+       
+       $.ajax(askFlickrWithBoundaries).complete(
+        function(xhr){
+         defer.resolve(allPhotos(xhr.responseText));
+        });
+       return defer;
+      }
+      
+      var value = function(parameter) { 
+       return $.url().param(parameter)
+      };
+    </script>
+    <script src="js/jquery.mousewheel.js"></script>
+    <script>
+      var horizontalScroll = function(element){
+       element.mousewheel(
+         function(ev,delta)
+         {
+          this.scrollLeft -= (delta * 100);
+          event.preventDefault()
+         });
+      };
+    </script>
+    <script src="js/jquery.hoverpulse.js"></script>
+    <script>
+      var zoomableElements = function(options){
+       return function(elements) { 
+        elements.forEach( function(element){
+          element.hoverpulse(options);
+       }
+      );}}
+      
+      var oversize = zoomableElements({size: 10});
+    </script>
+    <script>
+      $(window).load(function() {
+       //var left= value("left"), right= value("right"), top=value("top"), bottom=value("bottom");
+       var left= 3, right= 4, top=40, bottom=30;
+       var ribbon = $('#ribbon');
+       horizontalScroll(ribbon); 
+       findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
+      })
+    </script>
+    <script src="http://localhost:35729/livereload.js"></script>
   </head>
 </html>

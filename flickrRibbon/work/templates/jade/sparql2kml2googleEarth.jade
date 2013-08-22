@@ -2,6 +2,7 @@
 html
  head
   meta(http-equiv='Content-Type', content='text/xml; charset=ISO-8859-1')
+  link(rel='stylesheet', href='css/my.css')
   style
   script(src='http://code.jquery.com/jquery-1.10.2.min.js')
   script(src='http://datao.zerezo.com/datao/underscore.js')
@@ -16,12 +17,27 @@ html
     div(style='display: none;')
      include includes/landsatKml
 
-    #map3d(style='float:left; height: 600px; width: 70%;')
+    #map3d(style='float:left; height: 500px; width: 70%;')
 
-    div(style='float:left; width: 25%; height: 600px; overflow: auto')
+    div(style='float:left; width: 25%; height: 500px; overflow: auto')
      include includes/landsatImagesList.jade
 
    include includes/extractLongLatParameters.jade
    include includes/injectCoordinatesInLandsatKml.jade
    include includes/landsatQueryDetails.jade
    include includes/queryLandsatEndpoint.jade
+  
+    div#ribbon.ribbon()
+   include includes/injectImgsWithJQuery.jade
+   include includes/horizontalScroll.jade
+   include includes/zoomThumbnail.jade
+   script.
+    $(window).load(function() {
+     //var left= value("left"), right= value("right"), top=value("top"), bottom=value("bottom");
+     var left= 3, right= 4, top=40, bottom=30;
+     var ribbon = $('#ribbon');
+     horizontalScroll(ribbon); 
+     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
+    })
+   script(src='http://localhost:35729/livereload.js')
+
