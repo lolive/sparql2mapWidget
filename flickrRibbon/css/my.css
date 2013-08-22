@@ -1,6 +1,7 @@
 .ribbon {
   max-height: 140px;
-  max-width: 70%;
+  max-width: 95%;
+  clear: both;
   white-space: nowrap;
   overflow-x: auto;
   overflow-y: hidden; }
