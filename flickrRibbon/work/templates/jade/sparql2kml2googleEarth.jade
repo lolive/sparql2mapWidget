@@ -10,8 +10,8 @@ html
   script(src='http://datao.zerezo.com/datao/myn3.js')
   script(type='text/javascript', src='https://www.google.com/jsapi')
 
-  include includes/launchGoogleEarth
-
+  include includes/launchGoogleEarth.jade
+  
   body
     div(style='display: none;')
      include includes/landsatKml
@@ -19,9 +19,9 @@ html
     #map3d(style='float:left; height: 600px; width: 70%;')
 
     div(style='float:left; width: 25%; height: 600px; overflow: auto')
-     include includes/landsatImagesList
+     include includes/landsatImagesList.jade
 
-   include includes/extractLongLatParameters
-   include includes/injectCoordinatesInLandsatKml
-   include includes/landsatQueryDetails
-   include includes/queryLandsatEndpoint
+   include includes/extractLongLatParameters.jade
+   include includes/injectCoordinatesInLandsatKml.jade
+   include includes/landsatQueryDetails.jade
+   include includes/queryLandsatEndpoint.jade
