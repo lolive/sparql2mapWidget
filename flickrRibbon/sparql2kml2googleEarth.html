@@ -102,7 +102,7 @@
        $('latitude').text(longLat.lat);
        $('coordinates').text(longLat.long+','+longLat.lat+',0');
       });
-      window.Bus.subscribe('LongLatCalculated', function(name){
+      window.Bus.subscribe('NameCalculated', function(name){
         $('name').text(name);
       });
     </script>
