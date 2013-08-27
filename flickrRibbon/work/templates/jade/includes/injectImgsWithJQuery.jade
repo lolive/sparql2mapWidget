@@ -40,9 +40,20 @@ script.
    return $.url().param(parameter)
   };
 
+
+  var oversize = function(options){
+   return function(elements){
+    var defer = $.Deferred();
+    zoomableElements(options)(elements);
+    defer.resolve(elements);
+    return defer;
+   }
+  };
+
+
   window.Bus.subscribe('BordersCalculated', function(leftRightTopBottom){
      var left= leftRightTopBottom.left, right= leftRightTopBottom.right, top=leftRightTopBottom.top, bottom=leftRightTopBottom.bottom;
      var ribbon = $('#ribbon');
      horizontalScroll(ribbon); 
-     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
+     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize({size: 10}));
   });
