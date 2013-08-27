@@ -31,6 +31,9 @@ html
     div#ribbon.ribbon()
 
    include includes/horizontalScroll.jade
+    script.
+     horizontalScroll($('#ribbon')); 
+     
    include includes/injectImgsWithJQuery.jade
 
    script(src='http://localhost:35729/livereload.js')

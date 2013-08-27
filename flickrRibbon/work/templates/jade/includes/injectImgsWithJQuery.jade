@@ -27,6 +27,5 @@ script.
   window.Bus.subscribe('BordersCalculated', function(leftRightTopBottom){
      var left= leftRightTopBottom.left, right= leftRightTopBottom.right, top=leftRightTopBottom.top, bottom=leftRightTopBottom.bottom;
      var ribbon = $('#ribbon');
-     horizontalScroll(ribbon); 
      findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize({size: 10}));
   });
