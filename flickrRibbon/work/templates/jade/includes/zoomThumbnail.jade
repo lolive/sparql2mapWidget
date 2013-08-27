@@ -7,4 +7,14 @@ script.
       element.hoverpulse(options);
    }
   );}}
-  
+
+  var oversize = function(options){
+   return function(elements){
+    var defer = $.Deferred();
+    zoomableElements(options)(elements);
+    defer.resolve(elements);
+    return defer;
+   }
+  };
+
+ 
