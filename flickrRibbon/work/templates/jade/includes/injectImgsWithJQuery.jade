@@ -3,7 +3,11 @@ script.
 
   var convertIntoImgTag = function(photos){
     var defer = $.Deferred();
-    var imgs = photos.map(function(photo){return '<img class="inRibbon" src="'+photo.url_sq+'"/>'}); 
+    var imgs = photos.map(
+     function(photo){
+      return '<img class="inRibbon" src="'+photo.url_sq+'" id='+photo.id+' style="top: 0px; left: 0px; height: 75px; width: 75px;"/>'
+     }
+    ); 
     defer.resolve(imgs);
     return defer;
   };
@@ -40,9 +44,20 @@ script.
    return $.url().param(parameter)
   };
 
+
+  var oversize = function(options){
+   return function(elements){
+    var defer = $.Deferred();
+    zoomableElements(options)(elements);
+    defer.resolve(elements);
+    return defer;
+   }
+  };
+
+
   window.Bus.subscribe('BordersCalculated', function(leftRightTopBottom){
      var left= leftRightTopBottom.left, right= leftRightTopBottom.right, top=leftRightTopBottom.top, bottom=leftRightTopBottom.bottom;
      var ribbon = $('#ribbon');
      horizontalScroll(ribbon); 
-     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize);
+     findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize({size: 10}));
   });
