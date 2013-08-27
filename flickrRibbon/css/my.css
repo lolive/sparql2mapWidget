@@ -7,5 +7,9 @@
   overflow-y: hidden; }
 
 .inRibbon {
-  padding: 20px;
+  padding: 0px;
+  border-color: blue;
+  border-style:solid;
+  border-width:3px;
+  margin: 10px;
   display: inline-block; }
