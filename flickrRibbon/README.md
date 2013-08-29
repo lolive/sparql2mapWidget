@@ -10,8 +10,13 @@ This page handles 3 GET parameters: long, lat and name.
 If these 3 parameters are provided, the page queries the Landsat RDF dataset.
 And retrieve all the Landsat photos for the place pointed by (lat, long).
 
-It then displays a list of clickable photo items. 
+It then displays a list of clickable items. 
 Clicking an item will make the photo to appear in the GoogleEarth frame of the page.
+And a list of Flickr images for that location.
+
+All the HTML of this page embeds some RDFa tags, so you selections (which Landsat image is selected, which Flickr images are selected) can be extracted as RDF and saved somewhere.
+
+Note: only flickrRibbon/ project is currently maintained. Other directories are proof of concepts with alternative map widgets (GoogleMaps is pretty ok, OpenLayers does not know how to display a groundoverlay with an icon inside it.) 
 
 # INSTALL
 
