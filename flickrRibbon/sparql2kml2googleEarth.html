@@ -136,41 +136,6 @@
       </div>
     </body>
     <script>
-      window.Bus.subscribe('LongLatCalculated', function(longLat){
-       $('longitude').text(longLat.long);
-       $('latitude').text(longLat.lat);
-       $('coordinates').text(longLat.long+','+longLat.lat+',0');
-      });
-      window.Bus.subscribe('NameCalculated', function(name){
-        $('name').text(name);
-      });
-    </script>
-    <script>
-      var appendToJson = function(json){
-       return function(unusedVar, key, value){
-        if(json[key]){
-         if(json[key] instanceof Array){
-          json[key].push(value);
-         }else{
-          json[key] = [json[key], value];
-         }
-        }else{
-         json[key] = value;
-        }
-       }
-      }
-      
-      var vars = {};
-      var appendToVars = appendToJson(vars);
-      
-      window.location.href.replace(/[?&]+([^=&#]+)=([^&#]*)/gi, appendToVars);
-      var latitude=vars['lat'];//"48.5112";
-      var longitude=vars['long'];//"2.2055";
-      var name=decodeURIComponent(vars['name']);
-      window.Bus.publish('LongLatCalculated', {"long": longitude, "lat": latitude});
-      window.Bus.publish('NameCalculated', name);
-    </script>
-    <script>
       var myquery='CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#when> ?when10 . ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { GRAPH <http://toto/#> { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#when> ?when10 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l8oli") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND (str(?RightBoundary5) as ?RightBoundary) } }';
       var myendpoint='http://sitools.akka.eu:8889/sparql/';
     </script>
@@ -222,15 +187,68 @@
          kmlLayer = actualKmlObject;
       }
       
+      window.Bus.subscribe('LongLatCalculated', function(longLat) {
+      var longitude = longLat.long;
+      var latitude = longLat.lat;
+      
+      var myquery='CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#when> ?when10 . ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { GRAPH <http://toto/#> { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#when> ?when10 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l8oli") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND (str(?RightBoundary5) as ?RightBoundary) } }';
+      var myendpoint='http://sitools.akka.eu:8889/sparql/';
       
       sparqlQueryJson(
        myquery,
        myendpoint,
        function(res){
         parseN3(res);
-        window.Bus.publish('Landsat parsed', {});
-       }
+        $('.satelliteImage').click(function() {
+         var kmlId=this.attributes.href.value;
+         extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+         var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
+         window.Bus.publish('BordersCalculated', 
+          { "left":$("west", latlonbox).text(),
+           "right":$("east", latlonbox).text(),
+           "top":$("north", latlonbox).text(),
+           "bottom":$("south", latlonbox).text() }
+         );
+        });
+       }  
       )
+      });
+      
+    </script>
+    <script>
+      window.Bus.subscribe('LongLatCalculated', function(longLat){
+       $('longitude').text(longLat.long);
+       $('latitude').text(longLat.lat);
+       $('coordinates').text(longLat.long+','+longLat.lat+',0');
+      });
+      window.Bus.subscribe('NameCalculated', function(name){
+        $('name').text(name);
+      });
+    </script>
+    <script>
+      var appendToJson = function(json){
+       return function(unusedVar, key, value){
+        if(json[key]){
+         if(json[key] instanceof Array){
+          json[key].push(value);
+         }else{
+          json[key] = [json[key], value];
+         }
+        }else{
+         json[key] = value;
+        }
+       }
+      }
+      
+      var vars = {};
+      var appendToVars = appendToJson(vars);
+      
+      window.location.href.replace(/[?&]+([^=&#]+)=([^&#]*)/gi, appendToVars);
+      var name=decodeURIComponent(vars['name']);
+      if(vars['long'] && vars['lat']){
+       window.Bus.publish('LongLatCalculated', {"long": vars['long'], "lat": vars['lat']});
+       window.Bus.publish('NameCalculated', name);
+      }
     </script>
     <div id="ribbon" class="ribbon"></div>
     <script src="http://brandonaaron.github.io/jquery-mousewheel/jquery.mousewheel.js"></script>
