@@ -6,8 +6,8 @@
     <style></style>
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://datao.zerezo.com/datao/underscore.js"></script>
-    <script src="js/RDFa.1.2.0.js"></script>
-    <script src="../js/distal.js"></script>
+    <script src="http://green-turtle.googlecode.com/files/RDFa.1.2.0.js"></script>
+    <script src="http://datao.zerezo.com/distal.js"></script>
     <script src="http://datao.zerezo.com/datao/n3.js"></script>
     <script src="http://datao.zerezo.com/datao/myn3.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -233,7 +233,7 @@
       )
     </script>
     <div id="ribbon" class="ribbon"></div>
-    <script src="js/jquery.mousewheel.js"></script>
+    <script src="http://brandonaaron.github.io/jquery-mousewheel/jquery.mousewheel.js"></script>
     <script>
       var horizontalScroll = function(element){
        element.mousewheel(
@@ -248,26 +248,103 @@
       horizontalScroll($('#ribbon')); 
       
     </script>
-    <script src="js/purl.js"></script>
-    <script src="js/jquery.hoverpulse.js"></script>
     <script>
-      var zoomableElements = function(options){
-       return function(elements) { 
-        elements.forEach( function(element){
-          element.hoverpulse(options);
-       }
-      );}}
+      /*
+       * jQuery HoverPulse Plugin by M. Alsup
+       * Examples and docs at: http://malsup.com/jquery/hoverpulse/
+       * Dual licensed under the MIT and GPL
+       * Requires: jQuery v1.2.6 or later
+       * @version: 1.01  26-FEB-2009
+       */
+       
+      (function($) {
       
-      var oversize = function(options){
-       return function(elements){
-        var defer = $.Deferred();
-        zoomableElements(options)(elements);
-        defer.resolve(elements);
-        return defer;
-       }
+      $.fn.hoverpulse = function(options) {
+          // in 1.3+ we can fix mistakes with the ready state
+          if (this.length == 0) {
+              if (!$.isReady && this.selector) {
+                  var s = this.selector, c = this.context;
+                  $(function() {
+                      $(s,c).hoverpulse(options);
+                  });
+              }
+              return this;
+          }
+          
+              var opts = $.extend({}, $.fn.hoverpulse.defaults, options);
+              
+              // parent must be relatively positioned
+              //this.parent().css({ position: 'relative' });
+              // pulsing element must be absolutely positioned
+              //this.css({ position: 'absolute', top: 0, left: 0 });
+              
+              this.each(function() {
+                      var $this = $(this);
+                      var w = $this.width(), h = $this.height();
+                      $this.data('hoverpulse.size', { w: parseInt(w), h: parseInt(h) });
+              });
+              
+              // bind hover event for behavior
+              return this.hover(
+                      // hover over
+                      function() {
+                              var $this = $(this);
+                              $this.parent().css('z-index', opts.zIndexActive);
+                              
+                              var size = $this.data('hoverpulse.size');
+                              var w = size.w, h = size.h;
+                              $this.stop().animate({
+                                      top:  ('-'+opts.size+'px'),
+                                      left: ('-'+opts.size+'px'),
+                                      height: (h+2*opts.size)+'px',
+                                      width:  (w+2*opts.size)+'px'
+                              }, opts.speed);
+                      },
+                      // hover out
+                      function() {
+                              var $this = $(this);
+                              var size = $this.data('hoverpulse.size');
+                              var w = size.w, h = size.h;
+                              
+                              $this.stop().animate({
+                                      top:  0,
+                                      left: 0,
+                                      height: (h+'px'),
+                                      width:  (w+'px')
+                              }, opts.speed, function() {
+                                      $this.parent().css('z-index', opts.zIndexNormal);
+                              });
+                      }
+              );
       };
       
+      $.fn.hoverpulse.defaults = {
+              size:  20,
+              speed: 200,
+              zIndexActive: 100,
+              zIndexNormal: 1
+      };
       
+      })(jQuery);
+      
+      
+       var zoomableElements = function(options){
+        return function(elements) { 
+         elements.forEach( function(element){
+           element.hoverpulse(options);
+        }
+       );}}
+       
+       var oversize = function(options){
+        return function(elements){
+         var defer = $.Deferred();
+         zoomableElements(options)(elements);
+         defer.resolve(elements);
+         return defer;
+        }
+       };
+       
+       
     </script>
     <script>
       var findFlickrComments = function(id){

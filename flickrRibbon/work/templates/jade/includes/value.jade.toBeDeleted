@@ -1,0 +1,3 @@
+  var value = function(parameter) { 
+   return $.url().param(parameter)
+  };
