@@ -1,5 +1,5 @@
 !!! true
-html
+html(version="XHTML+RDFa 1.0")
  head
   meta(http-equiv='Content-Type', content='text/xml; charset=ISO-8859-1')
   link(rel='stylesheet', href='css/my.css')
@@ -14,7 +14,8 @@ html
   include includes/naiveEventBus.jade
   include includes/launchGoogleEarth.jade
   
-  body
+  body(about='http://toto/#tutu')(prefix="http://toto/#")
+
     div(style='display: none;')
      include includes/landsatKml.jade
 
