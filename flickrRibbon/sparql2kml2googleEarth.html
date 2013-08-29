@@ -1,11 +1,12 @@
 <!DOCTYPE true>
-<html>
+<html version="XHTML+RDFa 1.0">
   <head>
     <meta http-equiv="Content-Type" content="text/xml; charset=ISO-8859-1"/>
     <link rel="stylesheet" href="css/my.css"/>
     <style></style>
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
     <script src="http://datao.zerezo.com/datao/underscore.js"></script>
+    <script src="js/RDFa.1.2.0.js"></script>
     <script src="../js/distal.js"></script>
     <script src="http://datao.zerezo.com/datao/n3.js"></script>
     <script src="http://datao.zerezo.com/datao/myn3.js"></script>
@@ -48,7 +49,22 @@
        ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
       }
     </script>
-    <body>
+    <body about="http://toto/#tutu" prefix="http://toto/#">
+      <script>
+        var alertRDFa = function() {
+                   alert(document.data.graph.toString());
+                   window.removeEventListener(alertRDFa);
+        };
+        
+        var showRDFa = function() {
+          window.addEventListener("rdfa.loaded", alertRDFa);
+          GreenTurtle.attach(document,true);
+        };
+        
+      </script>
+      <div>
+        <button onClick="showRDFa()" type="button">Show RDFa</button>
+      </div>
       <div style="display: none;">
         <kml xmlns="http://www.opengis.net/kml/2.2" data-qrepeat="satelliteImage http://toto/#satelliteImage" data-qattr="id satelliteImage|http://toto/#fileid ,#" class="layer">
           <Document data-qrepeat="pathRow satelliteImage|http://toto/#pathRow">
@@ -81,11 +97,34 @@
       </div>
       <div id="map3d" style="float:left; height: 500px; width: 70%;"></div>
       <div style="float:left; width: 25%; height: 500px; overflow: auto">
+        <script>
+          window.Bus.subscribe("Landsat parsed", function(){
+           $('.satelliteImage').click(function() {
+             var kmlId=this.attributes.href.value;
+             extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+           });
+           $('.satelliteImage').click(function() {
+             var kmlId=this.attributes.href.value;
+             var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
+             window.Bus.publish('BordersCalculated', 
+              { "left":$("west", latlonbox).text(),
+               "right":$("east", latlonbox).text(),
+               "top":$("north", latlonbox).text(),
+               "bottom":$("south", latlonbox).text() }
+             );
+           });
+           $('.satelliteImage').click(function() {
+             $('.satelliteImage').removeAttr("rel");
+             $(this).attr('rel','http://toto/#illustratedByImage');
+           });
+          });
+          
+        </script>
         <ul>
           <li data-qrepeat="satelliteImage http://toto/#satelliteImage">
             <table>
               <tr>
-                <td colspan="2"><a href="#LXXXX" data-qattr="href satelliteImage|http://toto/#fileid ,#" class="satelliteImage"><span data-qtext="satelliteImage|http://toto/#fileid">LXXXX</span></a></td>
+                <td colspan="2"><a href="#LXXXX" data-qattr="resource satelliteImage|uri; href satelliteImage|http://toto/#fileid ,#" class="satelliteImage"><span data-qtext="satelliteImage|http://toto/#fileid">LXXXX</span></a></td>
               </tr>
               <tr>
                 <td>Sensor:<span data-qtext="html satelliteImage|http://toto/#sensor">l0</span></td>
@@ -189,17 +228,7 @@
        myendpoint,
        function(res){
         parseN3(res);
-        $('.satelliteImage').click(function() {
-         var kmlId=this.attributes.href.value;
-         extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-         var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
-         window.Bus.publish('BordersCalculated', 
-          { "left":$("west", latlonbox).text(),
-           "right":$("east", latlonbox).text(),
-           "top":$("north", latlonbox).text(),
-           "bottom":$("south", latlonbox).text() }
-         );
-        });
+        window.Bus.publish('Landsat parsed', {});
        }
       )
     </script>
@@ -278,11 +307,26 @@
       }
     </script>
     <script>
+      var manageImageClick = function(clickedSpan){
+       if($(clickedSpan).attr('property')){
+        $(clickedSpan).removeAttr('property');
+        $(clickedSpan).find("img").removeAttr('property');
+        $(clickedSpan).css('border-color','blue');
+       } else {
+        $(clickedSpan).attr('property', 'http://toto/#illustratedByPicture');property="http://toto/#img"
+        $(clickedSpan).find("img").attr('property', 'http://toto/#img');
+        $(clickedSpan).css('border-color', 'red');
+       }
+      }
+      
+    </script>
+    <script>
       var convertIntoImgTag = function(photos){
         var defer = $.Deferred();
         var imgs = photos.map(
          function(photo){
-          return '<img class="inRibbon" src="'+photo.url_sq+'" id='+photo.id+' style="top: 0px; left: 0px; height: 75px; width: 75px;"/>'
+          return '<span onclick="manageImageClick(this)" class="inRibbon" typeof="" style="border-style: solid; border-width: 2px; border-color: blue; height: 75px; width: 75px"> <img src="'+photo.url_sq+'" id='+photo.id+' style="top: 0px; left: 0px; height: 100%; width: 100%;" resource="http://flick.com/photos/'+photo.id+'"></img></span>'
+          
          }
         ); 
         defer.resolve(imgs);
