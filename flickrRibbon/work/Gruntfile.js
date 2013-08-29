@@ -23,11 +23,11 @@ module.exports = function(grunt) {
     },
     jade: {
      files: ['templates/jade/*.jade', 'templates/jade/includes/*.jade'],
-     tasks: ['jade'],
+     tasks: ['sass', 'jade'],
     },
     sass: {
      files: 'templates/scss/*scss',
-     tasks: ['sass'],
+     tasks: ['sass', 'jade'],
     }
    }
 
