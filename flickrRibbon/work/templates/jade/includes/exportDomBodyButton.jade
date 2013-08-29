@@ -1,0 +1,17 @@
+script.
+
+ function exportDom(event) {
+   var html = document;
+   $.ajax({
+     url: "/sitools/datastorage/user/linkedData/dom_files/toto.html",
+     type : "PUT",
+     data : html,     
+     processData: false,
+     contentType : false,
+     headers: {
+     'Content-Type': 'text/html'
+    }
+   }).done(function(msg) {
+    alert("youpi : " + msg);
+   });
+ }

@@ -46,5 +46,12 @@ html(version="XHTML+RDFa 1.0")
      
    include includes/injectImgsWithJQuery.jade
 
+    input#exportDom(type='submit')(value='export dom')
+
+   include includes/exportDomBodyButton.jade
+    script.
+     $("#exportDom").button().click(exportDom);
+
+
    script(src='http://localhost:35729/livereload.js')
 
