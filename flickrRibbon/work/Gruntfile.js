@@ -12,7 +12,7 @@ module.exports = function(grunt) {
    sass: {
     compile: {
      files: {
-      '../css/my.css': 'templates/scss/my.scss'
+      'templates/scss/result/my.css': 'templates/scss/my.scss'
      }
     }
    },
