@@ -1,11 +1,12 @@
 !!! true
-html
+html(version="XHTML+RDFa 1.0")
  head
   meta(http-equiv='Content-Type', content='text/xml; charset=ISO-8859-1')
   link(rel='stylesheet', href='css/my.css')
   style
   script(src='http://code.jquery.com/jquery-1.10.2.min.js')
   script(src='http://datao.zerezo.com/datao/underscore.js')
+  script(src='js/RDFa.1.2.0.js')
   script(src='../js/distal.js')
   script(src='http://datao.zerezo.com/datao/n3.js')
   script(src='http://datao.zerezo.com/datao/myn3.js')
@@ -14,7 +15,13 @@ html
   include includes/naiveEventBus.jade
   include includes/launchGoogleEarth.jade
   
-  body
+  body(about='http://toto/#tutu')(prefix="http://toto/#")
+
+    include includes/submitButton.jade
+    div
+     button(onClick='showRDFa()', type='button')
+      | Show RDFa
+
     div(style='display: none;')
      include includes/landsatKml.jade
 

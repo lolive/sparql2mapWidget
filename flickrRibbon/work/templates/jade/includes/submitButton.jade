@@ -1,0 +1,11 @@
+script.
+  var alertRDFa = function() {
+             alert(document.data.graph.toString());
+             window.removeEventListener(alertRDFa);
+    };
+
+  var showRDFa = function() {
+    window.addEventListener("rdfa.loaded", alertRDFa);
+    GreenTurtle.attach(document,true);
+  };
+
