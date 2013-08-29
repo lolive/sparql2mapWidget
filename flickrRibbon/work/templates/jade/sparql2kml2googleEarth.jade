@@ -30,11 +30,12 @@ html(version="XHTML+RDFa 1.0")
     div(style='float:left; width: 25%; height: 500px; overflow: auto')
      include includes/landsatImagesList.jade
 
+   include includes/landsatQueryDetails.jade
+   include includes/queryLandsatEndpoint.jade
+
    include includes/injectCoordinatesInLandsatKml.jade
    include includes/extractLongLatParameters.jade
 
-   include includes/landsatQueryDetails.jade
-   include includes/queryLandsatEndpoint.jade
   
     div#ribbon.ribbon()
 
