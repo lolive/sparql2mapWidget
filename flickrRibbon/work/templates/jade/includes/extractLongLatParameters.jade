@@ -17,8 +17,8 @@ script.
   var appendToVars = appendToJson(vars);
 
   window.location.href.replace(/[?&]+([^=&#]+)=([^&#]*)/gi, appendToVars);
-  var latitude=vars['lat'];//"48.5112";
-  var longitude=vars['long'];//"2.2055";
   var name=decodeURIComponent(vars['name']);
-  window.Bus.publish('LongLatCalculated', {"long": longitude, "lat": latitude});
-  window.Bus.publish('NameCalculated', name);
+  if(vars['long'] && vars['lat']){
+   window.Bus.publish('LongLatCalculated', {"long": vars['long'], "lat": vars['lat']});
+   window.Bus.publish('NameCalculated', name);
+  }
