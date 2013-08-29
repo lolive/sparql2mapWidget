@@ -410,6 +410,7 @@
        return defer;
       }
     </script>
+    <input id="exportDom" type="submit" value="export dom"/>
     <script>
       var manageImageClick = function(clickedSpan){
        if($(clickedSpan).attr('property')){
@@ -452,6 +453,28 @@
          var ribbon = $('#ribbon');
          findFlickrPhotos(left, right, top, bottom).then(convertIntoImgTag).then(injectInElement(ribbon)).then(oversize({size: 10}));
       });
+    </script>
+    <script>
+      function exportDom(event) {
+        var html = document;
+        $.ajax({
+          url: "/sitools/datastorage/user/linkedData/dom_files/toto.html",
+          type : "PUT",
+          data : html,     
+          processData: false,
+          contentType : false,
+          headers: {
+          'Content-Type': 'text/html'
+        }
+        }).done(function(msg) {
+         alert("youpi : " + msg);
+        });
+      }
+    </script>
+    <script>
+      $("#exportDom").button().click(exportDom);
+      
+      
     </script>
     <script src="http://localhost:35729/livereload.js"></script>
   </head>
