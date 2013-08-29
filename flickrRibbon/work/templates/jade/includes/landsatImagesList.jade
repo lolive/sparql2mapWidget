@@ -14,6 +14,12 @@ script.
       "bottom":$("south", latlonbox).text() }
     );
   });
+  $('.satelliteImage').click(function() {
+    $('.satelliteImage').removeAttr("rel");
+    $(this).attr('rel','http://toto/#illustratedByImage');
+  });
+ });
+
 ul
  li(data-qrepeat='satelliteImage http://toto/#satelliteImage')
   table
