@@ -46,6 +46,14 @@ script.
     kmlLayer = actualKmlObject;
  }
 
+ var selectKml = function(kmlId){
+  var defer = $.Deferred();
+  $('kml').removeAttr('kmlSelected');
+  $(document.getElementById(kmlId)).attr('kmlSelected', 'true');
+  defer.resolve(kmlId);
+  return defer;
+ }
+
  window.Bus.subscribe('LongLatCalculated', function(longLat) {
  var longitude = longLat.long;
  var latitude = longLat.lat;
@@ -58,18 +66,7 @@ script.
   myendpoint,
   function(res){
    parseN3(res);
-   $('.satelliteImage').click(function() {
-    var kmlId=this.attributes.href.value;
-    extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-    var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
-    window.Bus.publish('BordersCalculated', 
-     { "left":$("west", latlonbox).text(),
-      "right":$("east", latlonbox).text(),
-      "top":$("north", latlonbox).text(),
-      "bottom":$("south", latlonbox).text() }
-    );
-   });
-  }  
+  }
  )
  });
  

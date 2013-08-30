@@ -23,12 +23,24 @@ script.
   $('.satelliteImage').click(linkLandsatImageToMainURI);
  });
 
+ function selectCorrespondingKml(kmlId) {
+    selectKml(kmlId).then(extractKmlString).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+    var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
+    window.Bus.publish('BordersCalculated', 
+     { "left":$("west", latlonbox).text(),
+      "right":$("east", latlonbox).text(),
+      "top":$("north", latlonbox).text(),
+      "bottom":$("south", latlonbox).text() }
+    );
+ }
+    
+
 ul
  li(data-qrepeat='satelliteImage http://toto/#satelliteImage')
   table
    tr
     td(colspan='2')
-     a.satelliteImage(href='#LXXXX')(data-qattr='resource satelliteImage|uri; href satelliteImage|http://toto/#fileid ,#')
+     a.satelliteImage(href='#LXXXX')(data-qattr='resource satelliteImage|uri; href satelliteImage|http://toto/#fileid ,#')(onclick='selectCorrespondingKml(this.attributes.href.value);')
       span(data-qtext='satelliteImage|http://toto/#fileid') LXXXX
    tr
     td
