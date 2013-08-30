@@ -58,17 +58,6 @@ script.
   myendpoint,
   function(res){
    parseN3(res);
-   $('.satelliteImage').click(function() {
-    var kmlId=this.attributes.href.value;
-    extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-    var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
-    window.Bus.publish('BordersCalculated', 
-     { "left":$("west", latlonbox).text(),
-      "right":$("east", latlonbox).text(),
-      "top":$("north", latlonbox).text(),
-      "bottom":$("south", latlonbox).text() }
-    );
-   });
   }  
  )
  });
