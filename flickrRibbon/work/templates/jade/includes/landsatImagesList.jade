@@ -1,10 +1,9 @@
 script.
- window.Bus.subscribe("Landsat parsed", function(){
-  $('.satelliteImage').click(function() {
+ function injectSelectedKmlInGE() {
     var kmlId=this.attributes.href.value;
     extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-  });
-  $('.satelliteImage').click(function() {
+  }
+ function calculateBorders() {
     var kmlId=this.attributes.href.value;
     var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
     window.Bus.publish('BordersCalculated', 
@@ -13,11 +12,15 @@ script.
       "top":$("north", latlonbox).text(),
       "bottom":$("south", latlonbox).text() }
     );
-  });
-  $('.satelliteImage').click(function() {
+ }
+ function linkLandsatImageToMainURI() {
     $('.satelliteImage').removeAttr("rel");
     $(this).attr('rel','http://toto/#illustratedByImage');
-  });
+  }
+ window.Bus.subscribe("Landsat parsed", function(){
+  $('.satelliteImage').click(injectSelectedKmlInGE);
+  $('.satelliteImage').click(calculateBorders);
+  $('.satelliteImage').click(linkLandsatImageToMainURI);
  });
 
 ul
