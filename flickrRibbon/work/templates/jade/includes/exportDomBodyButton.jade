@@ -1,17 +1,21 @@
 script.
-
+ 
  function exportDom(event) {
-   var html = document;
+   var title = $.urlParam('articleTitle');
+   var url = $.urlParam('articleUrl');
+   
+   var html = $("html").clone();
+   html.find("#map3d").empty();
    $.ajax({
-     url: "/sitools/datastorage/user/linkedData/dom_files/toto.html",
+     url : url +'dom/' + title,
      type : "PUT",
-     data : html,     
+     data : html.html(),     
      processData: false,
      contentType : false,
      headers: {
      'Content-Type': 'text/html'
     }
    }).done(function(msg) {
-    alert("youpi : " + msg);
+    alert("Dom save at uri : " + url +'dom/' + title );
    });
  }
