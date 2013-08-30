@@ -24,7 +24,7 @@ script.
  });
 
  function selectCorrespondingKml(kmlId) {
-    extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+    selectKml(kmlId).then(extractKmlString).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
     var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
     window.Bus.publish('BordersCalculated', 
      { "left":$("west", latlonbox).text(),

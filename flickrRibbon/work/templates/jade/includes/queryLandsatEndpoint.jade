@@ -46,6 +46,14 @@ script.
     kmlLayer = actualKmlObject;
  }
 
+ var selectKml = function(kmlId){
+  var defer = $.Deferred();
+  $('kml').removeAttr('kmlSelected');
+  $(document.getElementById(kmlId)).attr('kmlSelected', 'true');
+  defer.resolve(kmlId);
+  return defer;
+ }
+
  window.Bus.subscribe('LongLatCalculated', function(longLat) {
  var longitude = longLat.long;
  var latitude = longLat.lat;
@@ -58,7 +66,7 @@ script.
   myendpoint,
   function(res){
    parseN3(res);
-  }  
+  }
  )
  });
  
