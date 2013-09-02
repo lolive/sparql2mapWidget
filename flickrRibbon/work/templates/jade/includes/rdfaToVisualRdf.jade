@@ -1,0 +1,8 @@
+script.
+ 
+ function viewRdfaInVisualRdf(event) {
+   var title = $.urlParam('articleTitle');
+   var articleUrl = $.urlParam('articleUrl');
+   var url = articleUrl +'dom/' + title;
+   window.open("http://graves.cl/visualRDF/?url="+url, "RDF");
+ }
