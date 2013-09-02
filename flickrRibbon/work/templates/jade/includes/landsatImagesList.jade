@@ -8,12 +8,6 @@ script.
       "bottom":$("south", latlonbox).text() }
     );
  }
- window.Bus.subscribe("Landsat parsed", function(){
-  $('.satelliteImage').click(injectSelectedKmlInGE);
-  $('.satelliteImage').click(calculateBorders);
-  $('.satelliteImage').click(linkLandsatImageToMainURI);
- });
-
  
  function linkLandsatImageToMainURI(kmlId) {
     $('.satelliteImage').removeAttr("property");
