@@ -20,13 +20,7 @@ script.
 
  function selectCorrespondingKml(kmlId) {
    injectSelectedKmlInGE(kmlId);
-    var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
-    window.Bus.publish('BordersCalculated', 
-     { "left":$("west", latlonbox).text(),
-      "right":$("east", latlonbox).text(),
-      "top":$("north", latlonbox).text(),
-      "bottom":$("south", latlonbox).text() }
-    );
+   calculateBorders(kmlId);
  }
     
 
