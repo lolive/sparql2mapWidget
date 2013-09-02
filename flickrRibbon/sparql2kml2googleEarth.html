@@ -59,6 +59,7 @@
        ge = instance;
        ge.getWindow().setVisibility(true);
        ge.getLayerRoot().enableLayerById(ge.LAYER_BORDERS, true);
+       if($('[kmlSelected]').length>0){injectSelectedKmlInGE($('[kmlSelected]').attr('id'))}
       }
     </script>
     <body about="http://toto/#tutu" prefix="http://toto/#">
