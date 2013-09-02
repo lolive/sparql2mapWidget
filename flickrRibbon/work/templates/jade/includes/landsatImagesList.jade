@@ -1,8 +1,4 @@
 script.
- function injectSelectedKmlInGE() {
-    var kmlId=this.attributes.href.value;
-    extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-  }
  function calculateBorders() {
     var kmlId=this.attributes.href.value;
     var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
@@ -24,7 +20,7 @@ script.
  });
 
  function selectCorrespondingKml(kmlId) {
-    selectKml(kmlId).then(extractKmlString).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+   injectSelectedKmlInGE(kmlId);
     var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
     window.Bus.publish('BordersCalculated', 
      { "left":$("west", latlonbox).text(),
