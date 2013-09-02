@@ -8,16 +8,17 @@ script.
       "bottom":$("south", latlonbox).text() }
     );
  }
- function linkLandsatImageToMainURI() {
-    $('.satelliteImage').removeAttr("rel");
-    $(this).attr('rel','http://toto/#illustratedByImage');
-  }
  window.Bus.subscribe("Landsat parsed", function(){
   $('.satelliteImage').click(injectSelectedKmlInGE);
   $('.satelliteImage').click(calculateBorders);
   $('.satelliteImage').click(linkLandsatImageToMainURI);
  });
 
+ 
+ function linkLandsatImageToMainURI(kmlId) {
+    $('.satelliteImage').removeAttr("property");
+    $('[href='+kmlId+']').attr('property','http://toto/#illustratedByImage');
+ }
  function selectCorrespondingKml(kmlId) {
    injectSelectedKmlInGE(kmlId);
    calculateBorders(kmlId);
