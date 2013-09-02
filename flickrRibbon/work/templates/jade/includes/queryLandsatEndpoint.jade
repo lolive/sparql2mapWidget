@@ -1,15 +1,15 @@
 include landsatQueryDetails.jade
 
-script.
- window.Bus.subscribe('LongLatCalculated', function(longLat) {
- var longitude = longLat.long;
- var latitude = longLat.lat;
- 
- sparqlQueryJson(
-  myquery(longitude, latitude),
-  myendpoint,
-  function(res){
-   parseN3(res);
-  }
- )
- });
+ script.
+  window.Bus.subscribe('LongLatCalculated', function(longLat) {
+  var longitude = longLat.long;
+  var latitude = longLat.lat;
+  
+  sparqlQueryJson(
+   myquery(longitude, latitude),
+   myendpoint,
+   function(res){
+    parseN3(res);
+   }
+  )
+  });
