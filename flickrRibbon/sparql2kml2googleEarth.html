@@ -47,6 +47,7 @@
       }());
     </script>
     <script>
+      $('#map3d').empty()
       var ge;
       google.load("earth", "1", { callback: function(){} });
       function init() {
@@ -61,6 +62,75 @@
       }
     </script>
     <body about="http://toto/#tutu" prefix="http://toto/#">
+      <script>
+        $.urlParam = function(name){
+         var results = new RegExp('[\\?&]' + name + '=([^&#]*)').exec(window.location.href);
+         return results[1] || 0;
+        }
+      </script>
+      <script>
+        var kmlLayer;
+        
+           function injectSelectedKmlInGE(kmlId) {
+                 var extractKmlString = function(kmlId){
+                  var defer = $.Deferred();
+                  var kmlString=(new XMLSerializer()).serializeToString(document.getElementById(kmlId));
+                  defer.resolve(kmlString);
+                  return defer;
+                 }
+                 
+                 var uppercaseElements = function(string, elementNames){
+                   var uppercasedString = string;
+                   elementNames.forEach( function(elementName) {
+                    uppercasedString=uppercasedString.replace(new RegExp(elementName.toLowerCase(), 'g'), elementName);
+                   });
+                   return uppercasedString;
+                 }
+                 
+                 var uppercaseKmlElements = function(kmlString){
+                  var defer = $.Deferred();
+                  var elementnames = [ 'Point', 'GroundOverlay', 'Document', 'LatLonBox', 'Camera', 'Icon', 'Placemark' ];
+                  var validKmlString = uppercaseElements(kmlString, elementnames);
+                  defer.resolve(validKmlString);
+                  return defer;
+                 }
+                 
+                 var sendToGE = function(kmlString){
+                  var defer = $.Deferred();
+                  if(ge) {
+                   var kmlObject = ge.parseKml(kmlString);
+                   ge.getFeatures().appendChild(kmlObject);
+                   ge.getView().setAbstractView(kmlObject.getAbstractView());
+                   defer.resolve(kmlObject);
+                   return defer;
+                  }
+                 }
+                 
+                 var removeOlderKml = function(actualKmlObject){
+                  var defer = $.Deferred();
+                  if(kmlLayer)
+                   ge.getFeatures().removeChild(kmlLayer);
+                  defer.resolve(actualKmlObject);
+                  return defer;
+                 }
+                 
+                 var setAsCurrentKml = function(actualKmlObject){
+                    kmlLayer = actualKmlObject;
+                 }
+                 
+                 var selectKml = function(kmlId){
+                  var defer = $.Deferred();
+                  $('kml').removeAttr('kmlSelected');
+                  $(document.getElementById(kmlId)).attr('kmlSelected', 'true');
+                  defer.resolve(kmlId);
+                  return defer;
+                 }
+                 
+           selectKml(kmlId).then(extractKmlString).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
+            }
+            
+            
+      </script>
       <script>
         var alertRDFa = function() {
                    alert(document.data.graph.toString());
@@ -109,13 +179,7 @@
       <div id="map3d" style="float:left; height: 500px; width: 70%;"></div>
       <div style="float:left; width: 25%; height: 500px; overflow: auto">
         <script>
-          window.Bus.subscribe("Landsat parsed", function(){
-           $('.satelliteImage').click(function() {
-             var kmlId=this.attributes.href.value;
-             extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-           });
-           $('.satelliteImage').click(function() {
-             var kmlId=this.attributes.href.value;
+          function calculateBorders(kmlId) {
              var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
              window.Bus.publish('BordersCalculated', 
               { "left":$("west", latlonbox).text(),
@@ -123,19 +187,25 @@
                "top":$("north", latlonbox).text(),
                "bottom":$("south", latlonbox).text() }
              );
-           });
-           $('.satelliteImage').click(function() {
-             $('.satelliteImage').removeAttr("rel");
-             $(this).attr('rel','http://toto/#illustratedByImage');
-           });
-          });
+          }
+          
+          function linkLandsatImageToMainURI(kmlId) {
+             $('.satelliteImage').removeAttr("property");
+             $('[href='+kmlId+']').attr('property','http://toto/#illustratedByImage');
+          }
+          function selectCorrespondingKml(kmlId) {
+            injectSelectedKmlInGE(kmlId);
+            calculateBorders(kmlId);
+            linkLandsatImageToMainURI(kmlId); 
+          }
+          
           
         </script>
         <ul>
           <li data-qrepeat="satelliteImage http://toto/#satelliteImage">
             <table>
               <tr>
-                <td colspan="2"><a href="#LXXXX" data-qattr="resource satelliteImage|uri; href satelliteImage|http://toto/#fileid ,#" class="satelliteImage"><span data-qtext="satelliteImage|http://toto/#fileid">LXXXX</span></a></td>
+                <td colspan="2"><a href="#LXXXX" data-qattr="resource satelliteImage|uri; href satelliteImage|http://toto/#fileid ,#" onclick="selectCorrespondingKml(this.attributes.href.value);" class="satelliteImage"><span data-qtext="satelliteImage|http://toto/#fileid">LXXXX</span></a></td>
               </tr>
               <tr>
                 <td>Sensor:<span data-qtext="html satelliteImage|http://toto/#sensor">l0</span></td>
@@ -147,80 +217,23 @@
       </div>
     </body>
     <script>
-      var kmlLayer;
-      var extractKmlString = function(kmlId){
-       var defer = $.Deferred();
-       var kmlString=(new XMLSerializer()).serializeToString(document.getElementById(kmlId));
-       defer.resolve(kmlString);
-       return defer;
-      }
-      
-      var uppercaseElements = function(string, elementNames){
-        var uppercasedString = string;
-        elementNames.forEach( function(elementName) {
-         uppercasedString=uppercasedString.replace(new RegExp(elementName.toLowerCase(), 'g'), elementName);
-        });
-        return uppercasedString;
-      }
-      
-      var uppercaseKmlElements = function(kmlString){
-       var defer = $.Deferred();
-       var elementnames = [ 'Point', 'GroundOverlay', 'Document', 'LatLonBox', 'Camera', 'Icon', 'Placemark' ];
-       var validKmlString = uppercaseElements(kmlString, elementnames);
-       defer.resolve(validKmlString);
-       return defer;
-      }
-      
-      var sendToGE = function(kmlString){
-       var defer = $.Deferred();
-       if(ge) {
-        var kmlObject = ge.parseKml(kmlString);
-        ge.getFeatures().appendChild(kmlObject);
-        ge.getView().setAbstractView(kmlObject.getAbstractView());
-        defer.resolve(kmlObject);
-        return defer;
-       }
-      }
-      
-      var removeOlderKml = function(actualKmlObject){
-       var defer = $.Deferred();
-       if(kmlLayer)
-        ge.getFeatures().removeChild(kmlLayer);
-       defer.resolve(actualKmlObject);
-       return defer;
-      }
-      
-      var setAsCurrentKml = function(actualKmlObject){
-         kmlLayer = actualKmlObject;
-      }
-      
+      var myquery=function(longitude, latitude) { 
+       return'CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#when> ?when10 . ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { GRAPH <http://toto/#> { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#when> ?when10 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l8oli") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND (str(?RightBoundary5) as ?RightBoundary) } }'; }
+      var myendpoint='http://sitools.akka.eu:8889/sparql/';
+    </script>
+    <script>
       window.Bus.subscribe('LongLatCalculated', function(longLat) {
       var longitude = longLat.long;
       var latitude = longLat.lat;
       
-      var myquery='CONSTRUCT { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary .  ?satelliteImage1 <http://toto/#when> ?when10 . ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> .  } WHERE { GRAPH <http://toto/#> { ?PathRow0 <http://toto/#bottomBoundary> ?BottomBoundary2 .  ?PathRow0 <http://toto/#topBoundary> ?TopBoundary3 .  ?PathRow0 <http://toto/#leftBoundary> ?LeftBoundary4 .  ?satelliteImage1 <http://toto/#when> ?when10 .  ?satelliteImage1 <http://toto/#pathRow> ?PathRow0 .  ?PathRow0 <http://toto/#rightBoundary> ?RightBoundary5 .  ?satelliteImage1 <http://toto/#sensor> ?Sensor6 .  ?satelliteImage1 <http://toto/#fileid> ?Fileid7 .  ?PathRow0 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#PathRow> .  ?satelliteImage1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://toto/#satelliteImage> . FILTER (?Sensor6 = "l8oli") .  FILTER (?RightBoundary5 > '+longitude+') . FILTER (?LeftBoundary4 < '+longitude+') .   FILTER (?TopBoundary3 > '+latitude+') . FILTER (?BottomBoundary2 < '+latitude+' )  . BIND (str(?TopBoundary3) as ?TopBoundary)  . BIND (str(?BottomBoundary2) as ?BottomBoundary)  . BIND (str(?LeftBoundary4) as ?LeftBoundary)  . BIND (str(?RightBoundary5) as ?RightBoundary) } }';
-      var myendpoint='http://sitools.akka.eu:8889/sparql/';
-      
       sparqlQueryJson(
-       myquery,
+       myquery(longitude, latitude),
        myendpoint,
        function(res){
         parseN3(res);
-        $('.satelliteImage').click(function() {
-         var kmlId=this.attributes.href.value;
-         extractKmlString(kmlId).then(uppercaseKmlElements).then(sendToGE).then(removeOlderKml).then(setAsCurrentKml);
-         var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
-         window.Bus.publish('BordersCalculated', 
-          { "left":$("west", latlonbox).text(),
-           "right":$("east", latlonbox).text(),
-           "top":$("north", latlonbox).text(),
-           "bottom":$("south", latlonbox).text() }
-         );
-        });
-       }  
+       }
       )
       });
-      
     </script>
     <script>
       window.Bus.subscribe('LongLatCalculated', function(longLat){
@@ -454,18 +467,22 @@
     </script>
     <script>
       function exportDom(event) {
-        var html = document;
+        var title = $.urlParam('articleTitle');
+        var url = $.urlParam('articleUrl');
+        
+        var html = $("html").clone();
+        html.find("#map3d").empty();
         $.ajax({
-          url: "/sitools/datastorage/user/linkedData/dom_files/toto.html",
+          url : url +'dom/' + title,
           type : "PUT",
-          data : html,     
+          data : html.html(),     
           processData: false,
           contentType : false,
           headers: {
           'Content-Type': 'text/html'
         }
         }).done(function(msg) {
-         alert("youpi : " + msg);
+         alert("Dom save at uri : " + url +'dom/' + title );
         });
       }
     </script>

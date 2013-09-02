@@ -1,71 +1,15 @@
 include landsatQueryDetails.jade
 
-script.
- var kmlLayer;
- var extractKmlString = function(kmlId){
-  var defer = $.Deferred();
-  var kmlString=(new XMLSerializer()).serializeToString(document.getElementById(kmlId));
-  defer.resolve(kmlString);
-  return defer;
- }
-
- var uppercaseElements = function(string, elementNames){
-   var uppercasedString = string;
-   elementNames.forEach( function(elementName) {
-    uppercasedString=uppercasedString.replace(new RegExp(elementName.toLowerCase(), 'g'), elementName);
-   });
-   return uppercasedString;
- }
-
- var uppercaseKmlElements = function(kmlString){
-  var defer = $.Deferred();
-  var elementnames = [ 'Point', 'GroundOverlay', 'Document', 'LatLonBox', 'Camera', 'Icon', 'Placemark' ];
-  var validKmlString = uppercaseElements(kmlString, elementnames);
-  defer.resolve(validKmlString);
-  return defer;
- }
-
- var sendToGE = function(kmlString){
-  var defer = $.Deferred();
-  if(ge) {
-   var kmlObject = ge.parseKml(kmlString);
-   ge.getFeatures().appendChild(kmlObject);
-   ge.getView().setAbstractView(kmlObject.getAbstractView());
-   defer.resolve(kmlObject);
-   return defer;
-  }
- }
-
- var removeOlderKml = function(actualKmlObject){
-  var defer = $.Deferred();
-  if(kmlLayer)
-   ge.getFeatures().removeChild(kmlLayer);
-  defer.resolve(actualKmlObject);
-  return defer;
- }
-
- var setAsCurrentKml = function(actualKmlObject){
-    kmlLayer = actualKmlObject;
- }
-
- var selectKml = function(kmlId){
-  var defer = $.Deferred();
-  $('kml').removeAttr('kmlSelected');
-  $(document.getElementById(kmlId)).attr('kmlSelected', 'true');
-  defer.resolve(kmlId);
-  return defer;
- }
-
- window.Bus.subscribe('LongLatCalculated', function(longLat) {
- var longitude = longLat.long;
- var latitude = longLat.lat;
- 
- sparqlQueryJson(
-  myquery(longitude, latitude),
-  myendpoint,
-  function(res){
-   parseN3(res);
-  }
- )
- });
- 
+ script.
+  window.Bus.subscribe('LongLatCalculated', function(longLat) {
+  var longitude = longLat.long;
+  var latitude = longLat.lat;
+  
+  sparqlQueryJson(
+   myquery(longitude, latitude),
+   myendpoint,
+   function(res){
+    parseN3(res);
+   }
+  )
+  });
