@@ -1,6 +1,5 @@
 script.
- function calculateBorders() {
-    var kmlId=this.attributes.href.value;
+ function calculateBorders(kmlId) {
     var latlonbox = $("document groundoverlay latlonbox", document.getElementById(kmlId));
     window.Bus.publish('BordersCalculated', 
      { "left":$("west", latlonbox).text(),
