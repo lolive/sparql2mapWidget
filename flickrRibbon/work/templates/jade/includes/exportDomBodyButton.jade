@@ -1,9 +1,14 @@
 script.
  
  function exportDom(event) {
-   var title = $.urlParam('articleTitle');
-   var articleUrl = $.urlParam('articleUrl');
-   var url = articleUrl +'dom/' + title;
+   var url;
+   if(window.location.href.indexOf('dom/') != -1){ // we are already on the saved DOM page
+    url  = window.location.href;
+   } else {                                        // we come from the bookmarklet
+    var title = $.urlParam('articleTitle');   
+    var articleUrl = $.urlParam('articleUrl');
+    url  = articleUrl +'dom/' + title;
+   };
    var html = $("html").clone();
    html.find("#map3d").empty();
    $.ajax({
@@ -16,6 +21,7 @@ script.
      'Content-Type': 'text/html'
     }
    }).done(function(msg) {
-    alert("Dom save at uri : " + url);
-   });
+    if(window.location.href !== url)
+      window.location.href=url;
+   }).fail(function(error){alert('Error: '+error)});
  }
